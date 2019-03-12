@@ -1,0 +1,40 @@
+baseurl = "http://merikan.com"
+disablePathToLower = true
+languageCode = "en-us"
+title = "Merikan Blog"
+
+theme = "hugo-theme-cleanwhite"
+disqusShortname = "merikan"
+paginate = 5 #frontpage pagination
+
+[outputs]
+home = ["HTML", "RSS"]
+
+[params]
+  header_image = "img/sulan_bg.jpg"
+  SEOTitle = "Merikan Blog"
+  description = ""
+  keyword = "Peter Merikan, Merikan, java, golang, microservices"
+  slogan = "My personal braindump"
+  image_404 = "img/404-bg.jpg"
+  title_404 = "I am are looking for your page...but I can't find it"
+
+  # Sidebar settings
+  sidebar_about_description = "Software Developer, Open Source Enthusiast and Life Adventurer"
+  sidebar_avatar = "img/avatar.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+  featured_tags = true 
+  featured_condition_size = 2 
+
+  [params.social]
+  rss            = true 
+  email          = "peter@merikan.com"
+  #facebook      = "full profile url in facebook"
+  #googleplus    = "full profile url in googleplus"
+  twitter       = "https://twitter.com/pmerikan"
+  linkedin       = "https://www.linkedin.com/in/merikan/"
+  stackoverflow  = "https://stackoverflow.com/users/2380457"
+  #instagram     = "full profile url in instagram"
+  github         = "https://github.com/merikan"
+  medium         = "https://medium.com/@merikan"
+  #pinterest     = "full profile url in pinterest"

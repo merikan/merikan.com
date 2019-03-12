@@ -1,6 +1,0 @@
-baseURL: http://blogs.merikan.com/peter/
-disablePathToLower: true
-languageCode: en-us
-title: My New Hugo Site
-
-theme: "hugo-theme-cleanwhite"
