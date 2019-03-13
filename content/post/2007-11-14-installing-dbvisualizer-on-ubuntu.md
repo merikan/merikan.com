@@ -1,8 +1,7 @@
 ---
 author: peter
 categories:
-- java
-- linux
+- technology
 date: 2007-11-14T20:58:42Z
 dsq_thread_id:
 - "5316568525"

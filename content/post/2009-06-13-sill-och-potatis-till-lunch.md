@@ -9,8 +9,6 @@ guid: http://blogs.merikan.com/peter/?p=391
 id: 391
 syntaxhighlighter_encoded:
 - "1"
-tags:
-- personligt
 title: Sill och potatis till lunch.
 url: /2009/06/13/sill-och-potatis-till-lunch/
 ---

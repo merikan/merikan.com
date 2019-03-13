@@ -1,7 +1,7 @@
 ---
 author: peter
 categories:
-- personligt
+- technology
 date: 2010-06-11T17:56:33Z
 dsq_thread_id:
 - "5316568463"

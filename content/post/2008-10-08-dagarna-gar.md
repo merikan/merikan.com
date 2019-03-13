@@ -1,14 +1,12 @@
 ---
 author: peter
 categories:
-- family
+- personligt
 date: 2008-10-08T21:20:43Z
 guid: http://blogs.merikan.com/peter/2008/10/08/dagarna-gar/
 id: 34
 syntaxhighlighter_encoded:
 - "1"
-tags:
-- personligt
 title: dagarna går
 url: /2008/10/08/dagarna-gar/
 ---

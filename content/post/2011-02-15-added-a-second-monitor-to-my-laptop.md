@@ -1,13 +1,13 @@
 ---
 author: peter
 categories:
-- linux
 - technology
 date: 2011-02-15T19:15:38Z
 guid: http://blogs.merikan.com/peter/?p=438
 id: 438
 tags:
-- linux ubuntu
+- linux
+- ubuntu
 title: Added a second monitor to my laptop with Ubuntu
 url: /2011/02/15/added-a-second-monitor-to-my-laptop/
 ---

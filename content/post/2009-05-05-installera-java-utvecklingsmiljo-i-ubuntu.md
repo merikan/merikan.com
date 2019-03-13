@@ -8,7 +8,9 @@ id: 303
 syntaxhighlighter_encoded:
 - "1"
 tags:
-- java svn linux
+- java 
+- svn 
+- linux
 title: Installera Java utvecklingsmiljö i Ubuntu
 url: /2009/05/05/installera-java-utvecklingsmiljo-i-ubuntu/
 ---

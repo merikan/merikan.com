@@ -7,8 +7,6 @@ guid: http://blogs.merikan.com/peter/?p=395
 id: 395
 syntaxhighlighter_encoded:
 - "1"
-tags:
-- personligt
 title: Solen skiner för mig idag.
 url: /2009/06/14/solen-skiner-for-mig-idag/
 ---

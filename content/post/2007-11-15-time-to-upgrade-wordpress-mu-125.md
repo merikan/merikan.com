@@ -1,7 +1,7 @@
 ---
 author: peter
 categories:
-- blog
+- technology
 date: 2007-11-15T22:59:56Z
 dsq_thread_id:
 - "5470307857"

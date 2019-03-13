@@ -1,7 +1,6 @@
 ---
 author: peter
 categories:
-- linux
 - technology
 date: 2012-08-12T19:46:48Z
 dsq_thread_id:
@@ -10,6 +9,8 @@ guid: http://blogs.merikan.com/peter/?p=502
 id: 502
 title: Alldeles för tyst vid datorn
 url: /2012/08/12/alldeles-for-tyst-vid-datorn/
+tags:
+- linux
 ---
 
 Hmm, vad tyst det är när jag sitter vid datorn. Hade glömt att installera Spotify på min Linux box.  Ett par klick så är det installerat och tystnaden bruten. Ge mig Timbuktu&#8230;.

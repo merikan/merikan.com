@@ -8,7 +8,9 @@ id: 365
 syntaxhighlighter_encoded:
 - "1"
 tags:
-- java maven eclipse
+- java 
+- maven 
+- eclipse
 title: Installera Java utvecklingsmiljö i Ubuntu, del 2
 url: /2009/05/05/installera-java-utvecklingsmiljo-i-ubuntu-del-2/
 ---

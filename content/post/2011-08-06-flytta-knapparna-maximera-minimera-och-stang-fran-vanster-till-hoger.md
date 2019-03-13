@@ -1,14 +1,15 @@
 ---
 author: peter
 categories:
-- linux
+- technology
 date: 2011-08-06T14:17:56Z
 dsq_thread_id:
 - "6143709017"
 guid: http://blogs.merikan.com/peter/?p=468
 id: 468
 tags:
-- linux ubuntu
+- linux
+- ubuntu
 title: Flytta knapparna &#8220;maximera&#8221;, &#8220;minimera&#8221; och &#8220;stäng&#8221;
   från vänster till höger
 url: /2011/08/06/flytta-knapparna-maximera-minimera-och-stang-fran-vanster-till-hoger/

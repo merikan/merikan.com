@@ -1,7 +1,7 @@
 ---
 author: peter
 categories:
-- google
+- technology
 date: 2009-04-01T07:24:20Z
 guid: http://blogs.merikan.com/peter/?p=180
 id: 180

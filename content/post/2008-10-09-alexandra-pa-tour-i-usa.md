@@ -1,7 +1,7 @@
 ---
 author: peter
 categories:
-- family
+- personligt
 date: 2008-10-09T11:32:01Z
 dsq_thread_id:
 - "6312863716"

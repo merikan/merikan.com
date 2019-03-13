@@ -1,8 +1,6 @@
 ---
 author: peter
 categories:
-- java
-- osx
 - technology
 date: 2013-08-10T16:41:07Z
 dsq_thread_id:
@@ -11,6 +9,9 @@ guid: http://blogs.merikan.com/peter/?p=515
 id: 515
 title: “Eclipse” is damaged and can’t be opened.
 url: /2013/08/10/eclipse-is-damaged-and-cant-be-opened/
+tags:
+- java
+- osx
 ---
 
 Yesterday I downloaded the latest Eclipse named Kepler to my Mac. I unzipped the package as usual and tried to launch it by clicking on the Eclipse file. I received the following error message:

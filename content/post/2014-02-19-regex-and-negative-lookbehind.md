@@ -1,7 +1,7 @@
 ---
 author: peter
 categories:
-- development
+- technology
 date: 2014-02-19T09:34:08Z
 dsq_thread_id:
 - "6132417861"

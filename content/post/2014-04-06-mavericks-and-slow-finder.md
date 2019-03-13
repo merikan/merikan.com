@@ -1,7 +1,6 @@
 ---
 author: peter
 categories:
-- osx
 - technology
 date: 2014-04-06T15:27:20Z
 dsq_thread_id:
@@ -10,6 +9,8 @@ guid: http://blogs.merikan.com/peter/?p=560
 id: 560
 title: Mavericks and slow Finder
 url: /2014/04/06/mavericks-and-slow-finder/
+tags:
+- osx
 ---
 
 Last weekend I upgraded my MBP to Mavericks. I have been waiting with the upgrade because I didn&#8217;t want to have problem with my computer so I figured I&#8217;ll wait for some bugfixes before upgrading. So last weekend I decided to take the jump and upgrade. The first thing I discovered was that HyperSwitch was not working as it should and I still have not found a solution to the problem. The next problem was that Finder was incredibly slow when showing the content in folders. Today I was googling for a solution and I encountered a solution by Snaggletooth_DE, <https://discussions.apple.com/thread/5492808?start=50&tstart=0>.

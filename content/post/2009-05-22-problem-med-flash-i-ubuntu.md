@@ -8,7 +8,8 @@ id: 373
 syntaxhighlighter_encoded:
 - "1"
 tags:
-- linux ubuntu
+- linux
+- ubuntu
 title: Problem med flash i Ubuntu
 url: /2009/05/22/problem-med-flash-i-ubuntu/
 ---

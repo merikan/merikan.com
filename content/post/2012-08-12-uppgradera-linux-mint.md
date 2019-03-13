@@ -1,7 +1,6 @@
 ---
 author: peter
 categories:
-- linux
 - technology
 date: 2012-08-12T19:26:35Z
 dsq_thread_id:
@@ -10,6 +9,8 @@ guid: http://blogs.merikan.com/peter/?p=494
 id: 494
 title: Uppgradera Linux Mint
 url: /2012/08/12/uppgradera-linux-mint/
+tags:
+- linux
 ---
 
 Skriver detta inlägg som dokumentation till mig själv.

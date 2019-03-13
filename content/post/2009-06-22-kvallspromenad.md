@@ -7,8 +7,6 @@ guid: http://blogs.merikan.com/peter/2009/06/22/kvallspromenad/
 id: 400
 syntaxhighlighter_encoded:
 - "1"
-tags:
-- personligt
 title: Kvällspromenad i det fina vädret
 url: /2009/06/22/kvallspromenad/
 ---

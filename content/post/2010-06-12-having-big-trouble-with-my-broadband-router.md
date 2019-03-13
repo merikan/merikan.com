@@ -1,7 +1,7 @@
 ---
 author: peter
 categories:
-- personligt
+- technology
 date: 2010-06-12T08:16:14Z
 guid: http://blogs.merikan.com/peter/?p=427
 id: 427

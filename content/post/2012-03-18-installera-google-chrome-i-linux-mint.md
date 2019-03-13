@@ -1,7 +1,6 @@
 ---
 author: peter
 categories:
-- linux
 - technology
 date: 2012-03-18T18:55:29Z
 dsq_thread_id:
@@ -9,7 +8,6 @@ dsq_thread_id:
 guid: http://blogs.merikan.com/peter/?p=488
 id: 488
 tags:
-- li
 - linux
 title: Installera Google Chrome i Linux Mint
 url: /2012/03/18/installera-google-chrome-i-linux-mint/

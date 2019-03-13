@@ -1,7 +1,7 @@
 ---
 author: peter
 categories:
-- blog
+- technology
 date: 2009-05-02T10:37:38Z
 guid: http://blogs.merikan.com/peter/?p=286
 id: 286

@@ -9,8 +9,6 @@ guid: http://blogs.merikan.com/peter/2009/06/11/imorgon-aker-josse-till-usa/
 id: 386
 syntaxhighlighter_encoded:
 - "1"
-tags:
-- personligt
 title: Imorgon åker Josse till USA
 url: /2009/06/11/imorgon-aker-josse-till-usa/
 ---

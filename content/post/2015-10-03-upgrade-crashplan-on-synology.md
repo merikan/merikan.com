@@ -1,7 +1,7 @@
 ---
 author: peter
 categories:
-- synology
+- technology
 date: 2015-10-03T22:56:35Z
 dsq_thread_id:
 - "5316568628"
@@ -9,6 +9,8 @@ guid: http://blogs.merikan.com/peter/?p=590
 id: 590
 title: Upgrade CrashPlan on Synology
 url: /2015/10/03/upgrade-crashplan-on-synology/
+tags:
+- synology
 ---
 
 <div>

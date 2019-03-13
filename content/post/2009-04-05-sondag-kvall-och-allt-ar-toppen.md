@@ -7,8 +7,6 @@ guid: http://blogs.merikan.com/peter/?p=182
 id: 182
 syntaxhighlighter_encoded:
 - "1"
-tags:
-- personligt
 title: Söndag kväll och allt är toppen
 url: /2009/04/05/sondag-kvall-och-allt-ar-toppen/
 ---

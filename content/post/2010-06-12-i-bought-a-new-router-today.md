@@ -6,7 +6,6 @@ date: 2010-06-12T18:14:15Z
 guid: http://blogs.merikan.com/peter/?p=429
 id: 429
 tags:
-- personligt
 - technology
 title: I bought a new router today
 url: /2010/06/12/i-bought-a-new-router-today/

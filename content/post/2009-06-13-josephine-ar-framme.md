@@ -9,8 +9,6 @@ guid: http://blogs.merikan.com/peter/?p=393
 id: 393
 syntaxhighlighter_encoded:
 - "1"
-tags:
-- personligt
 title: Josephine är framme.
 url: /2009/06/13/josephine-ar-framme/
 ---

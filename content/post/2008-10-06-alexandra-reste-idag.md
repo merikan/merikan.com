@@ -1,7 +1,7 @@
 ---
 author: peter
 categories:
-- family
+- personligt
 date: 2008-10-06T21:34:46Z
 guid: http://blogs.merikan.com/peter/2008/10/06/alexandra-reste-idag/
 id: 26
