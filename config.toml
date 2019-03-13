@@ -13,12 +13,12 @@ home = ["HTML", "RSS"]
 [params]
   header_image = "img/sulan_bg.jpg"
   SEOTitle = "Merikan Blog"
-  description = ""
+  description = "My personal braindump"
   keyword = "Peter Merikan, Merikan, java, golang, microservices"
   slogan = "My personal braindump"
   image_404 = "img/404-bg.jpg"
   title_404 = "I am are looking for your page...but I can't find it"
-
+  showtoc = false
   # Sidebar settings
   sidebar_about_description = "Software Developer, Open Source Enthusiast and Life Adventurer"
   sidebar_avatar = "img/avatar.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
