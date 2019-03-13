@@ -5,7 +5,7 @@ title = "Merikan Blog"
 
 theme = "hugo-theme-cleanwhite"
 disqusShortname = "merikan"
-paginate = 5 #frontpage pagination
+paginate = 10 #frontpage pagination
 
 [outputs]
 home = ["HTML", "RSS"]
