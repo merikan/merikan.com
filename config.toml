@@ -6,6 +6,9 @@ theme = "hugo-theme-cleanwhite"
 disqusShortname = "merikan"
 paginate = 10 #frontpage pagination
 
+[permalinks]
+  post = "/:year/:month/:slug/"
+
 [outputs]
 home = ["HTML", "RSS"]
 
