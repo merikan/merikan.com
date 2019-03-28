@@ -24,7 +24,9 @@ home = ["HTML", "RSS"]
   sidebar_avatar = "img/avatar.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
   featured_tags = true 
-  featured_condition_size = 2 
+  featured_condition_size = 2
+
+  about_me = true 
 
   [params.social]
   rss            = true 
