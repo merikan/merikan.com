@@ -8,7 +8,7 @@ id: 69
 syntaxhighlighter_encoded:
 - "1"
 title: Idag har vi hjälp Terez och Mikael att flytta.
-url: /2008/10/25/idag-har-vi-hjalp-terez-och-mikael-att-flytta/
+aliases: ["peter/2008/10/25/idag-har-vi-hjalp-terez-och-mikael-att-flytta/"]
 ---
 
 Vaknade klockan sju imorse, kunde inte sova.Vet inte vad det är med mig men på senaste tiden har jag varit lite håglös men jag kan ändå inte sova länge på morgonen. Måste vara höstvädret som gör att man känner sig trött och hängig (kan vara att man inte tränar men det tror jag väl inte 😉 ). Att man inte kan sova på morgonen beror väl på att man börjar närma sig pensionen…..

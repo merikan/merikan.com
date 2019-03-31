@@ -10,7 +10,7 @@ id: 414
 syntaxhighlighter_encoded:
 - "1"
 title: Grattis Hannah på födelsedagen.
-url: /2009/11/21/grattis-hannah-pa-fodelsedagen/
+aliases: ["peter/2009/11/21/grattis-hannah-pa-fodelsedagen/"]
 ---
 
 Idag fyller min syster Hannah år. Tråkigt nog befiiner vi oss inte i Yorba Linda så vi kan inte vara med och gratulera på sängen, det får bli ett telefonsamtal istället.

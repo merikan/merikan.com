@@ -8,7 +8,7 @@ dsq_thread_id:
 guid: http://blogs.merikan.com/peter/?p=176
 id: 176
 title: Grattis Uno, Pappa och farfar
-url: /2009/03/03/grattis-uno-pappa-och-farfar/
+aliases: ["peter/2009/03/03/grattis-uno-pappa-och-farfar/"]
 ---
 
 Idag är det din dag och jag hoppas att den blir bra.

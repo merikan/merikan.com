@@ -8,7 +8,7 @@ id: 92
 syntaxhighlighter_encoded:
 - "1"
 title: Störst tank vinner
-url: /2008/11/11/storst-tank-vinner/
+aliases: ["peter/2008/11/11/storst-tank-vinner/"]
 ---
 
 I USA har de fått ögonen för att det finns något som heter miljö och den är tydligen global. Eftersom de pratar om global så måste de upptäckt att USA inte var världen utan det fanns faktiskt något utanför. Och andra sidan kände de ju till Mexico så de borde anat något. Ok, nog med rantande om USA, det bor ju faktiskt en hel del underbara människor. Titta bara på valet de hade, det blev ju faktiskt riktigt bra. Och sen har vi flera Merikanare över där också….. och så Alexandra som befinner sig i SF (utan mamma och pappa 😉 ). Ja herregud, hon verkar verkligen trivas där… Jaja, nog om detta. Vad menade jag med “**Störst tank vinner**“?

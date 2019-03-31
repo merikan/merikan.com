@@ -8,7 +8,7 @@ id: 28
 syntaxhighlighter_encoded:
 - "1"
 title: Tisdag idag
-url: /2008/10/07/tisdag-idag/
+aliases: ["peter/2008/10/07/tisdag-idag/"]
 ---
 
 Idag är det tisdag och det har gått mer än ett dygn sedan Alexandra åkte. Fick ett sms från henne i natt att hon kommit fram till New York och allt var bra. Förmodar att det är fullt upp där så vi får väl se när hon hör av sig nästa gång. Hon skulle träffa Alexandra Steen där innan hon drog vidare till SF. 

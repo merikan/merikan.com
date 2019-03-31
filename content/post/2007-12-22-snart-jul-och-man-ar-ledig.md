@@ -10,7 +10,7 @@ id: 4
 syntaxhighlighter_encoded:
 - "1"
 title: Snart Jul och man är ledig.
-url: /2007/12/22/snart-jul-och-man-ar-ledig/
+aliases: ["peter/2007/12/22/snart-jul-och-man-ar-ledig/"]
 ---
 
 Äntligen helg och snart är det Jul. Ledig är man och idag 7:08 svensk tid vände det och går mot ljusare tider 🙂 Börjar faktiskt tycka det är jobbigt med den här mörka tiden på året, man kanske skulle fixa en enkelbiljett till CA, bara packa väskorna och ta med familjen och……. Eller så kan man ju börja träna också så man blir lite piggare och orkar mer, matchvikten är på dryga 80 nu (bara muskler). Köpte faktiskt en spinning cykel härom veckan som jag monterat ihop som står och väntar på mig nere i hobbyrummet.

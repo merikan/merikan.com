@@ -12,7 +12,7 @@ syntaxhighlighter_encoded:
 tags:
 - blog
 title: Time to upgrade WordPress MU 1.2.5
-url: /2007/11/15/time-to-upgrade-wordpress-mu-125/
+aliases: ["peter/2007/11/15/time-to-upgrade-wordpress-mu-125/"]
 ---
 
 A few days ago I upgraded my WordPress MU installation. It all went smoothly with no problems at all. Thank you guys at [WordPress](http://wordpress.org/) for doing such a great software.

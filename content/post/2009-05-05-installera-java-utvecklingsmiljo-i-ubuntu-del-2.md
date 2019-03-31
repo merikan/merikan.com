@@ -12,7 +12,7 @@ tags:
 - maven 
 - eclipse
 title: Installera Java utvecklingsmiljö i Ubuntu, del 2
-url: /2009/05/05/installera-java-utvecklingsmiljo-i-ubuntu-del-2/
+aliases: ["peter/2009/05/05/installera-java-utvecklingsmiljo-i-ubuntu-del-2/"]
 ---
 
 Då var det dags för nästa del av min installation av utvecklingsmiljön i Ubuntu 9.04. Subversion och Java JDK är avklarat.

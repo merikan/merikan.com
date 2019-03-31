@@ -8,7 +8,7 @@ id: 383
 syntaxhighlighter_encoded:
 - "1"
 title: Vilket väder vi har…..
-url: /2009/05/31/vilket-vader-vi-har/
+aliases: ["peter/2009/05/31/vilket-vader-vi-har/"]
 ---
 
 Har varit gôr varmt hela helgen och det har varit riktigt skönt. Igår var jag och josse ute och paddlade med den nya kanoten. Vi la i den i ån uppe vid Nolhaga och paddlade oss ner till Mjörn. Väl ute på Mjörn så paddlade vi över till en ö. Det gick riktigt bra och vi förstod varför, vi hade haft medvind dit och det betyder att vi hade motvind hem. Det var lite jobbigare och gick inte så fort men hem tog vi oss. Har tyvärr inga bilder att lägga ut på oss så det får bli en senare historia. Fick med två flytväster men vi behöver en till till Erica och en till Bosco.

@@ -10,7 +10,7 @@ id: 424
 openid_comments:
 - a:2:{i:0;s:2:"33";i:1;s:2:"36";}
 title: I’ve got a Rdio invite
-url: /2010/06/11/i-got-a-rdio-invite/
+aliases: ["peter/2010/06/11/i-got-a-rdio-invite/"]
 ---
 
 I finally got an invite to the new streaming service Rdio. I was invited by Refe Tuma Creative Deconstruction (:-)).

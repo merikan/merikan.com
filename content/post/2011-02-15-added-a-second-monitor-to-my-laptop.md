@@ -9,7 +9,7 @@ tags:
 - linux
 - ubuntu
 title: Added a second monitor to my laptop with Ubuntu
-url: /2011/02/15/added-a-second-monitor-to-my-laptop/
+aliases: ["peter/2011/02/15/added-a-second-monitor-to-my-laptop/"]
 ---
 
 I decided to move my 21&#8243; monitor from my desktop computer to my laptop that runs Ubuntu. Since I have a DVI interface on my monitor and a HDMI interface on my laptop I had to buy a adapter. I bought one at Clas Olson and it worked perfectly.

@@ -10,7 +10,7 @@ id: 3
 syntaxhighlighter_encoded:
 - "1"
 title: Dags för en ny vecka, nya utmaningar……
-url: /2007/12/18/dags-for-en-ny-vecka-nya-utminingar/
+aliases: ["peter/2007/12/18/dags-for-en-ny-vecka-nya-utminingar/"]
 ---
 
 Jaha, så har denna helgen också gått. Otroligt vad dagarna går, har faktiskt kommit fram till att veckan bara består av två dagar, måndag och fredag.

@@ -8,7 +8,7 @@ id: 482
 tags:
 - linux
 title: Subversion och inconsistent line ending style
-url: /2012/03/16/subversion-och-inconsistent-line-ending-style/
+aliases: ["peter/2012/03/16/subversion-och-inconsistent-line-ending-style/"]
 ---
 
 Ibland händer det att radslut i filer är olika beroende på vilka verktyg man har använt och i vilken miljö man skapat filen. I windows används CRLF och i Unix används CR. För att enkelt ställa om radslut kan man använda kommandona **dos2unix** och **unix2dos**.

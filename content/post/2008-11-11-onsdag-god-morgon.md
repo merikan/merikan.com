@@ -8,7 +8,7 @@ id: 87
 syntaxhighlighter_encoded:
 - "1"
 title: Onsdag, god morgon
-url: /2008/11/11/onsdag-god-morgon/
+aliases: ["peter/2008/11/11/onsdag-god-morgon/"]
 ---
 
 Tänkte skriva några rader innan jag kommer fram till jobbet (sitter på tåget nu). Jaha, ny vecka och redan tisdag, va e det onsdag???? Vad har hänt senaste veckan då?

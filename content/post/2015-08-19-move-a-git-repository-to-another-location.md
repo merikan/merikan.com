@@ -8,7 +8,7 @@ dsq_thread_id:
 guid: http://blogs.merikan.com/peter/?p=573
 id: 573
 title: Move a git repository to another location.
-url: /2015/08/19/move-a-git-repository-to-another-location/
+aliases: ["peter/2015/08/19/move-a-git-repository-to-another-location/"]
 tags:
  - git
 ---

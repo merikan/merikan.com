@@ -8,7 +8,7 @@ id: 10
 syntaxhighlighter_encoded:
 - "1"
 title: En underbar söndag med solsken och allt.
-url: /2008/01/27/en-underbar-sondag-med-solsken-och-allt/
+aliases: ["peter/2008/01/27/en-underbar-sondag-med-solsken-och-allt/"]
 ---
 
 Vaknade i morse vid nio tiden och ute var solen på väg att spricka igenom de gråa molnen. Det verkade som det skulle bli en fin dag idag och det var ju faktiskt vad väderprogosen förutspådde. Vid tio snåret sken solen på en klarblå himmel så jag och Erica stack ut med hunden på en härlig promenad i solskenet. Det var så man fick vårkänslor i det vackra vädret. Väl hemma var det på med snickarbyxorna och greja lite med huset.

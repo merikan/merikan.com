@@ -8,7 +8,7 @@ id: 7
 syntaxhighlighter_encoded:
 - "1"
 title: Idag går man på sparlåga
-url: /2007/12/25/idag-gar-man-pa-sparlaga/
+aliases: ["peter/2007/12/25/idag-gar-man-pa-sparlaga/"]
 ---
 
 Julafton är över och hysterin har lagt sig. Idag är det bara mysbyxor och filttofflor som gäller, ligga på sängen och läsa Knasen med en godisskål bredvid sig.

@@ -8,7 +8,7 @@ id: 429
 tags:
 - technology
 title: I bought a new router today
-url: /2010/06/12/i-bought-a-new-router-today/
+aliases: ["peter/2010/06/12/i-bought-a-new-router-today/"]
 ---
 
 Ok, I had problems with my old router so I decided to buy a new one. Didn’t I have warranty left on my old router? I couldn’t remember when I bought it so I had to search for my invoice. I know I bought it in an on-line store but didn’t remember which one and when. I found the invoice in my mailbox and it was InWarehouse and I bought it the 10th of June 2008. I had read on D-Link’s homepage that the warranty time was 2 years. ahhhhh, I missed the warranty time with 2 days…….. Ok, no good to cry over that so I bought a new one today.

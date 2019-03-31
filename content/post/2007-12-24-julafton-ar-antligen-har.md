@@ -10,7 +10,7 @@ id: 6
 syntaxhighlighter_encoded:
 - "1"
 title: Julafton är äntligen här
-url: /2007/12/24/julafton-ar-antligen-har/
+aliases: ["peter/2007/12/24/julafton-ar-antligen-har/"]
 ---
 
 Ja så var det julafton. Josse körde en ny variant denna gången, det var att sitta uppe till efter klockan 24 så man fick öppna första paketet. Sedan var det att kolla på One Tree Hill till klockan halv fyra på morgonen.  

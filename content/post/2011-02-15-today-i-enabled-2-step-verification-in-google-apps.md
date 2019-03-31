@@ -8,7 +8,7 @@ id: 446
 tags:
 - google
 title: Today I enabled 2-step verification in Google Apps
-url: /2011/02/15/today-i-enabled-2-step-verification-in-google-apps/
+aliases: ["peter/2011/02/15/today-i-enabled-2-step-verification-in-google-apps/"]
 ---
 
 Today I enabled [2-step verification](http://www.google.com/support/a/bin/answer.py?answer=175197&hl=en) in Google Apps. This means that if you want to you can use 2 factor authentication when logging in to Google Apps services such as GMail. You can’t force your users to use 2-step verification, they must opt-in themselves.

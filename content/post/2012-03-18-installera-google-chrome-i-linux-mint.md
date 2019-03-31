@@ -10,7 +10,7 @@ id: 488
 tags:
 - linux
 title: Installera Google Chrome i Linux Mint
-url: /2012/03/18/installera-google-chrome-i-linux-mint/
+aliases: ["peter/2012/03/18/installera-google-chrome-i-linux-mint/"]
 ---
 
 Har precis installerat Linux Mint på min ena dator. Har kört Ubuntu i några år nu men kände att det var dags att byta. Hur som helst så finns inte Google Chrome med i repositoryt så det går inte att installera den från den vanliga software managern. Hur som helst så är det ganska enkelt att installera i Linux ändå. Gör bara följande.

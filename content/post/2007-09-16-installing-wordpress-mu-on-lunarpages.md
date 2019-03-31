@@ -12,7 +12,7 @@ syntaxhighlighter_encoded:
 tags:
 - blog
 title: Installing WordPress MU on Lunarpages
-url: /2007/09/16/installing-wordpress-mu-on-lunarpages/
+aliases: ["peter/2007/09/16/installing-wordpress-mu-on-lunarpages/"]
 ---
 
 I wanted to install a blogging software that everyone in the family could use. Lunarpages has the Fantastico package that contains the WordPress software. Unfortunately this is the single -user version of WordPress and I wanted each and every family member to have their own blog e.g. http://blogs.merikan.com/<name>.

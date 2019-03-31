@@ -8,7 +8,7 @@ id: 293
 syntaxhighlighter_encoded:
 - "1"
 title: Köpte en ny bärbar
-url: /2009/05/03/kopte-en-ny-barbar/
+aliases: ["peter/2009/05/03/kopte-en-ny-barbar/"]
 ---
 
 Jag har ju haft min gamla stationära dator några år nu så jag kände att det var dags att uppgradera sig lite. Denna gången tänkte jag att jag skulle köpa en bärbar istället för stationär så jag slapp att sitta enbart i pc-rummet utan jag vill ju kunna förflytta mig lite. Jag visste inte vilket märke eller modell jag skulle köpa. Klart att man gärna skulle vilja ha en Mac Book men jag tycker de är alldeles för dyra så det får bli en vanlig pc istället. Jaha, och vilket märke då? Hade faktiskt ingen aning så jag var tvungen att google runt lite och läsa reviewer samt att jag kollade lite med kollegor om vad de tyckte. Till slut bestämde jag mig för att köpa en [Dell Studio](http://www1.euro.dell.com/content/products/productdetails.aspx/laptop-studio-1555?c=se&l=sv&s=dhs&cs=sedhs1) , priset var bra och folk verkade nöjda, enda problemet var att man bara kunde köpa dem på nätet så det fanns ingen möjlighet att “känna och klämma”. Var väl inte så orolig så jag la en order på en Studio 1537 med följande konfiguration:  

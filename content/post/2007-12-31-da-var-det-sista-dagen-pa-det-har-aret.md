@@ -10,7 +10,7 @@ id: 8
 syntaxhighlighter_encoded:
 - "1"
 title: Då var det sista dagen på det här året.
-url: /2007/12/31/da-var-det-sista-dagen-pa-det-har-aret/
+aliases: ["peter/2007/12/31/da-var-det-sista-dagen-pa-det-har-aret/"]
 ---
 
 Det kalla vädret verkar ha kommit. Redan igår visade sig solen och det var snabba ryck ut för att ta en promenad i solskenet, äntligen. Det känns som det regnat i evigheter och det är ju inte riktigt så man tänker sig en “riktig” jul. F-n, gräsmattan ser ju ut som ett risfält…., funderar på att plantera lax eller varför inte kräftor. Så kan man ju sitta på altan och fiska upp dem lagom till kräftskivan.

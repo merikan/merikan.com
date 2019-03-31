@@ -10,7 +10,7 @@ syntaxhighlighter_encoded:
 tags:
 - blog
 title: Bloggen uppdaterad
-url: /2008/10/02/bloggen-uppdaterad/
+aliases: ["peter/2008/10/02/bloggen-uppdaterad/"]
 ---
 
 **Följande har hänt:**

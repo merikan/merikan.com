@@ -8,7 +8,7 @@ dsq_thread_id:
 guid: http://blogs.merikan.com/peter/?p=502
 id: 502
 title: Alldeles för tyst vid datorn
-url: /2012/08/12/alldeles-for-tyst-vid-datorn/
+aliases: ["peter/2012/08/12/alldeles-for-tyst-vid-datorn/"]
 tags:
 - linux
 ---

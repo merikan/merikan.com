@@ -8,7 +8,7 @@ id: 26
 syntaxhighlighter_encoded:
 - "1"
 title: Alexandra reste idag
-url: /2008/10/06/alexandra-reste-idag/
+aliases: ["peter/2008/10/06/alexandra-reste-idag/"]
 ---
 
 Idag var vi på flygplatsen och vinkade av Alexandra. Planet skulle gå 10:50 så vi åkte hemifrån strax innan åtta så vi slapp stressa. Det var en annan tjej där som skulle vara au pair när vi kom så de checkade in samtidigt för att få platserna bredvid varandra. Efter incheckning stod vi och pratade en stund. Alexandras kompisar kom också till flygplatsen för att vinka av henne. Helt plötsligt vara klockan strax innan tio och det var dags att ta farväl. Fy vad jobbigt. En hel del tårar trillade och det kändes riktigt tungt att veta att man inte skulle ses på över tolv månader. Man är inte så kaxig som man ibland försöker verka… ;-). Nåja, hon har ju ganska nära till farmor och farfar om det skulle vara något.

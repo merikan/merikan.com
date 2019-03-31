@@ -10,7 +10,7 @@ id: 386
 syntaxhighlighter_encoded:
 - "1"
 title: Imorgon åker Josse till USA
-url: /2009/06/11/imorgon-aker-josse-till-usa/
+aliases: ["peter/2009/06/11/imorgon-aker-josse-till-usa/"]
 ---
 
 Puh, klockan är 11:a på kvällen och snart dags att gå och lägga sig. Josse har nästan packat klart nu och imorgon bitti åker vi till Landvetter för att vinka av henne. Vilken mocklis hon e som får åka till USA för att träffa farmor, farfar och Alexandra. Och vi får vi inte glömma Thomas, Quinn, Hannah, Sam också. Fy, jag vill också åka med….. jaja, det får väl bli nästa år.

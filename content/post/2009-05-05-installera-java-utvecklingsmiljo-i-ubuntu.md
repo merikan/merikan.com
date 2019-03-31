@@ -12,7 +12,7 @@ tags:
 - svn 
 - linux
 title: Installera Java utvecklingsmiljö i Ubuntu
-url: /2009/05/05/installera-java-utvecklingsmiljo-i-ubuntu/
+aliases: ["peter/2009/05/05/installera-java-utvecklingsmiljo-i-ubuntu/"]
 ---
 
 Dags att sätta upp utvecklingsmiljön i min nyinstallerade Ubuntu 9.04. Jag kommer att installera följande programvaror:

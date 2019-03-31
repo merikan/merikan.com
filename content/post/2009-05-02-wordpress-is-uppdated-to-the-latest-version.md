@@ -10,7 +10,7 @@ syntaxhighlighter_encoded:
 tags:
 - blog
 title: WordPress is updated to the latest version
-url: /2009/05/02/wordpress-is-uppdated-to-the-latest-version/
+aliases: ["peter/2009/05/02/wordpress-is-uppdated-to-the-latest-version/"]
 ---
 
 Hi folks

@@ -10,7 +10,7 @@ id: 54
 syntaxhighlighter_encoded:
 - "1"
 title: Alexandra på tour i USA
-url: /2008/10/09/alexandra-pa-tour-i-usa/
+aliases: ["peter/2008/10/09/alexandra-pa-tour-i-usa/"]
 ---
 
 Nu vet vi vad Alexandra egentligen skulle göra i USA. 

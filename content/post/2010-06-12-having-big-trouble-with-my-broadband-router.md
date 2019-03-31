@@ -6,7 +6,7 @@ date: 2010-06-12T08:16:14Z
 guid: http://blogs.merikan.com/peter/?p=427
 id: 427
 title: Having big trouble with my broadband router
-url: /2010/06/12/having-big-trouble-with-my-broadband-router/
+aliases: ["peter/2010/06/12/having-big-trouble-with-my-broadband-router/"]
 ---
 
 `Please wait...<br />

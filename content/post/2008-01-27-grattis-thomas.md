@@ -8,7 +8,7 @@ id: 13
 syntaxhighlighter_encoded:
 - "1"
 title: Grattis Thomas!!!
-url: /2008/01/27/grattis-thomas/
+aliases: ["peter/2008/01/27/grattis-thomas/"]
 ---
 
 Idag fyller Thomas år.

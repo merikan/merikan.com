@@ -10,7 +10,7 @@ id: 393
 syntaxhighlighter_encoded:
 - "1"
 title: Josephine är framme.
-url: /2009/06/13/josephine-ar-framme/
+aliases: ["peter/2009/06/13/josephine-ar-framme/"]
 ---
 
 I natt landade Josephine i Los Angeles och Farmor och Farfar var och hämtade henne. Alexandra hade också tagit sig ner till LA för att överraska henne och det gjorde hon verkligen. Quinn var självklart också där för att hälsa henne välkommen.

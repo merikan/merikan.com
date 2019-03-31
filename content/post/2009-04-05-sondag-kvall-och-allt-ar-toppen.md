@@ -8,7 +8,7 @@ id: 182
 syntaxhighlighter_encoded:
 - "1"
 title: Söndag kväll och allt är toppen
-url: /2009/04/05/sondag-kvall-och-allt-ar-toppen/
+aliases: ["peter/2009/04/05/sondag-kvall-och-allt-ar-toppen/"]
 ---
 
 Hej allihopa

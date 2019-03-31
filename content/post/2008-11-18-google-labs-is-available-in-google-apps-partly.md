@@ -10,7 +10,7 @@ syntaxhighlighter_encoded:
 tags:
 - google
 title: Google Labs is available in Google Apps (partly)
-url: /2008/11/18/google-labs-is-available-in-google-apps-partly/
+aliases: ["peter/2008/11/18/google-labs-is-available-in-google-apps-partly/"]
 ---
 
 Today I discovered that Google Labs is available for Google Apps. I’m not sure, perhaps this has been available for a while without my knowledge. Today there are three products available.

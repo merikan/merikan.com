@@ -8,7 +8,7 @@ id: 77
 syntaxhighlighter_encoded:
 - "1"
 title: Godmorgon
-url: /2008/11/01/godmorgon/
+aliases: ["peter/2008/11/01/godmorgon/"]
 ---
 
 Godmorgon alla.

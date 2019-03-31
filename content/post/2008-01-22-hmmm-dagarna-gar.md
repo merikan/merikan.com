@@ -8,7 +8,7 @@ id: 9
 syntaxhighlighter_encoded:
 - "1"
 title: hmmm, dagarna går
-url: /2008/01/22/hmmm-dagarna-gar/
+aliases: ["peter/2008/01/22/hmmm-dagarna-gar/"]
 ---
 
 Som sagt var, dagarna går… eller springer de? I vilket fall så går tiden med en rasande fart. [Thomas](http://merikan.net/) fyller snart år och vi har inte fått iväg något kort, faaaaaaaaaaaaaaan inte igen…… Jaja, vad är väl ett kort på sin födelsedag 😉 mycket trevligare om brorsan ringer istället så man får tjôta.

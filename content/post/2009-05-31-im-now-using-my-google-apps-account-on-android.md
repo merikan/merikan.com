@@ -10,7 +10,7 @@ syntaxhighlighter_encoded:
 tags:
 - android
 title: I’m now using my Google Apps account on Android
-url: /2009/05/31/im-now-using-my-google-apps-account-on-android/
+aliases: ["peter/2009/05/31/im-now-using-my-google-apps-account-on-android/"]
 ---
 
 When I bought my Android phone 6 months ago I wasn’t able to use my Google Apps account for my own domain (merikan.com). The only account that worked was my GMail account, so I have been using this until today. I wasn’t so eager to switch since i have all my IM friends connected to my GMail account but now I have changed this so it was time to do a change on my phone to.

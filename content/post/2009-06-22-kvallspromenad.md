@@ -8,7 +8,7 @@ id: 400
 syntaxhighlighter_encoded:
 - "1"
 title: Kvällspromenad i det fina vädret
-url: /2009/06/22/kvallspromenad/
+aliases: ["peter/2009/06/22/kvallspromenad/"]
 ---
 
 Tog en kvällspromenad till Mjörn i det fina vädret. En snabb fika på stranden och sen hem igen, vill ju inte missa Lotta på Liseberg. 🙂

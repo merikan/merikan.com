@@ -10,7 +10,7 @@ syntaxhighlighter_encoded:
 tags:
 - android
 title: Updated my phone to Android 1.6
-url: /2009/10/04/updated-my-phone-to-android-16/
+aliases: ["peter/2009/10/04/updated-my-phone-to-android-16/"]
 ---
 
 Today I updated my ADP1 to Android 1.6. I flashed the device using an updated recovery image ([read more](http://developer.htc.com/adp.html)). The process is simple, this is  how I did it.

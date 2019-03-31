@@ -8,7 +8,7 @@ id: 34
 syntaxhighlighter_encoded:
 - "1"
 title: dagarna går
-url: /2008/10/08/dagarna-gar/
+aliases: ["peter/2008/10/08/dagarna-gar/"]
 ---
 
 Onsdag idag. Har varit kanonfint väder idag, hösten kan vara väldigt vacker men jag tror nog ändå att jag gillar sommaren mest.

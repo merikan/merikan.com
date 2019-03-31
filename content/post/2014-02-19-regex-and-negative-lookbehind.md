@@ -8,7 +8,7 @@ dsq_thread_id:
 guid: http://blogs.merikan.com/peter/?p=554
 id: 554
 title: Regex and negative lookbehind
-url: /2014/02/19/regex-and-negative-lookbehind/
+aliases: ["peter/2014/02/19/regex-and-negative-lookbehind/"]
 ---
 
 In my current project our application is built with Spring and we are using a couple of Spring profiles. Unfortunately we didn’t make them unique so if we deploy it with another application in the same application server we might get a name clash. We decided that we better try to use names that are specific for our application. So I started renaming all of our spring profiles by just adding the prefix apigw. to the name so it will be more unique.

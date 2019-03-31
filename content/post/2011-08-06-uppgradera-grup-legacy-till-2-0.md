@@ -6,7 +6,7 @@ date: 2011-08-06T13:29:09Z
 guid: http://blogs.merikan.com/peter/?p=463
 id: 463
 title: Uppgradera Grub Legacy till 2.0
-url: /2011/08/06/uppgradera-grup-legacy-till-2-0/
+aliases: ["peter/2011/08/06/uppgradera-grup-legacy-till-2-0/"]
 tags:
 - linux
 ---

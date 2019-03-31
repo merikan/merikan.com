@@ -8,7 +8,7 @@ dsq_thread_id:
 guid: http://blogs.merikan.com/peter/?p=511
 id: 511
 title: No sound in OS X when playing YouTube videos in Chrome
-url: /2013/07/19/no-sound-in-os-x-when-playing-youtube-videos-in-chrome/
+aliases: ["peter/2013/07/19/no-sound-in-os-x-when-playing-youtube-videos-in-chrome/"]
 tags:
 - osx
 ---

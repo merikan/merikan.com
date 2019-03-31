@@ -6,7 +6,7 @@ date: 2008-12-23T19:43:52Z
 guid: http://blogs.merikan.com/peter/?p=141
 id: 141
 title: Börjar bli frisk nu.
-url: /2008/12/23/borjar-bli-frisk-nu/
+aliases: ["peter/2008/12/23/borjar-bli-frisk-nu/"]
 ---
 
 Hallo där, nu e jag tillbaka. Gick på ledighet i fredags och blev dålig redan på fredag kväll. Verkade vara en riktig kill-förkylning som jag åkte på men efter denna näradödenupplevelsen är jag på väg att bli helt frisk (jaja, helt frisk bli man väl aldrig ;-)). Frisk måste man ju vara eftersom imorgon är det Julafton och då skall vi hem till familjen Jigfelt. Det skall bli mysigt att träffa släkten, familjen Jigfelt och familjen Anderson. Alexandra kommer ju inte vara med oss vid bordet men vi kommer skypa med henne och resten av ligan i Yorba Linda, det skall bli kul.

@@ -11,7 +11,7 @@ tags:
 - linux
 - ubuntu
 title: Problem med flash i Ubuntu
-url: /2009/05/22/problem-med-flash-i-ubuntu/
+aliases: ["peter/2009/05/22/problem-med-flash-i-ubuntu/"]
 ---
 
 Har haft lite trubbel med flash spelaren på min Ubuntu maskin. Vet att när jag satte upp den så valde jag en av tre flash spelare för Firefox. Kommer inte ihåg vilken jag valde men efter mycket dribblande i Firefox så gav jag upp. Ibland funkade det och ibland inte. Till slut hittade jag en lösning som fick det hela till att fungera. Jag gjorde enligt följande:

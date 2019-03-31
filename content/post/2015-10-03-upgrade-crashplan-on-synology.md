@@ -8,7 +8,7 @@ dsq_thread_id:
 guid: http://blogs.merikan.com/peter/?p=590
 id: 590
 title: Upgrade CrashPlan on Synology
-url: /2015/10/03/upgrade-crashplan-on-synology/
+aliases: ["peter/2015/10/03/upgrade-crashplan-on-synology/"]
 tags:
 - synology
 ---

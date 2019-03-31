@@ -8,7 +8,7 @@ dsq_thread_id:
 guid: http://blogs.merikan.com/peter/?p=494
 id: 494
 title: Uppgradera Linux Mint
-url: /2012/08/12/uppgradera-linux-mint/
+aliases: ["peter/2012/08/12/uppgradera-linux-mint/"]
 tags:
 - linux
 ---

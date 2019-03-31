@@ -8,7 +8,7 @@ dsq_thread_id:
 guid: http://blogs.merikan.com/peter/?p=560
 id: 560
 title: Mavericks and slow Finder
-url: /2014/04/06/mavericks-and-slow-finder/
+aliases: ["peter/2014/04/06/mavericks-and-slow-finder/"]
 tags:
 - osx
 ---

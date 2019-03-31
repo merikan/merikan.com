@@ -8,7 +8,7 @@ dsq_thread_id:
 guid: http://blogs.merikan.com/peter/?p=546
 id: 546
 title: Black screen when starting Ubuntu
-url: /2014/01/12/black-screen-when-starting-ubuntu/
+aliases: ["peter/2014/01/12/black-screen-when-starting-ubuntu/"]
 tags:
 - linux
 ---

@@ -6,7 +6,7 @@ date: 2009-02-13T21:40:05Z
 guid: http://blogs.merikan.com/peter/?p=157
 id: 157
 title: Ner Ner Ner, Ner för backen ner….
-url: /2009/02/13/ner-ner-ner-ner-backen-ner/
+aliases: ["peter/2009/02/13/ner-ner-ner-ner-backen-ner/"]
 ---
 
 Idag har vi åkt skidor hela dagen, kanonkul.

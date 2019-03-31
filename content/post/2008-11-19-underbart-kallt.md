@@ -8,7 +8,7 @@ id: 136
 syntaxhighlighter_encoded:
 - "1"
 title: Underbart kallt
-url: /2008/11/19/underbart-kallt/
+aliases: ["peter/2008/11/19/underbart-kallt/"]
 ---
 
 Idag var det en sådan där undebar kall morgon.

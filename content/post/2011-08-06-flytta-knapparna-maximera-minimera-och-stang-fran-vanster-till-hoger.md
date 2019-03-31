@@ -12,7 +12,7 @@ tags:
 - ubuntu
 title: Flytta knapparna “maximera”, “minimera” och “stäng”
   från vänster till höger
-url: /2011/08/06/flytta-knapparna-maximera-minimera-och-stang-fran-vanster-till-hoger/
+aliases: ["peter/2011/08/06/flytta-knapparna-maximera-minimera-och-stang-fran-vanster-till-hoger/"]
 ---
 
 I Ubunti 10.04 valde man att flytta knapparna i fönstrena från höger till vänster. Varför man valde detta kan alltid diskuteras men det var tydligen för att underlätta då vi i västvärlden läser från vänster till höger. Då man tyvärr är van vid att hitta knapparna uppe till höger så blir man förvirrad varje gång som man skall klicka på dem. Då jag använder windows på jobbet 8 timmar om dagen och där sitter de till höger så lär man nog inte i första taget vänja sig att hitta knapprna till vänster.
