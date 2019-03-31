@@ -9,7 +9,7 @@ guid: http://blogs.merikan.com/peter/2007/12/18/dags-for-en-ny-vecka-nya-utminin
 id: 3
 syntaxhighlighter_encoded:
 - "1"
-title: Dags för en ny vecka, nya utmaningar&#8230;&#8230;
+title: Dags för en ny vecka, nya utmaningar……
 url: /2007/12/18/dags-for-en-ny-vecka-nya-utminingar/
 ---
 

@@ -9,7 +9,7 @@ syntaxhighlighter_encoded:
 - "1"
 tags:
 - android
-title: I&#8217;m now using my Google Apps account on Android
+title: I’m now using my Google Apps account on Android
 url: /2009/05/31/im-now-using-my-google-apps-account-on-android/
 ---
 

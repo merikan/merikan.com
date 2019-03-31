@@ -7,7 +7,7 @@ guid: http://blogs.merikan.com/peter/?p=143
 id: 143
 syntaxhighlighter_encoded:
 - "1"
-title: '&#8216;Twas the night before Christmas, when all through the house'
+title: '‘Twas the night before Christmas, when all through the house'
 url: /2008/12/23/twas-the-night-before-christmas-when-all-through-the-house/
 ---
 

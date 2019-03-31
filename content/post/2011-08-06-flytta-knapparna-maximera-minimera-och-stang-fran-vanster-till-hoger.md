@@ -10,7 +10,7 @@ id: 468
 tags:
 - linux
 - ubuntu
-title: Flytta knapparna &#8220;maximera&#8221;, &#8220;minimera&#8221; och &#8220;stäng&#8221;
+title: Flytta knapparna “maximera”, “minimera” och “stäng”
   från vänster till höger
 url: /2011/08/06/flytta-knapparna-maximera-minimera-och-stang-fran-vanster-till-hoger/
 ---

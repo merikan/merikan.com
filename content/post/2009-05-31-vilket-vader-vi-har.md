@@ -7,7 +7,7 @@ guid: http://blogs.merikan.com/peter/?p=383
 id: 383
 syntaxhighlighter_encoded:
 - "1"
-title: Vilket väder vi har&#8230;..
+title: Vilket väder vi har…..
 url: /2009/05/31/vilket-vader-vi-har/
 ---
 

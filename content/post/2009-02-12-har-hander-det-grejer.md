@@ -12,7 +12,7 @@ syntaxhighlighter_encoded:
 tags:
 - blog
 - news
-title: Här händer det grejer&#8230;&#8230;
+title: Här händer det grejer……
 url: /2009/02/12/har-hander-det-grejer/
 ---
 

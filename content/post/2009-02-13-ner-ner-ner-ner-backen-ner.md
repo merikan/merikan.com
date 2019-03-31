@@ -5,7 +5,7 @@ categories:
 date: 2009-02-13T21:40:05Z
 guid: http://blogs.merikan.com/peter/?p=157
 id: 157
-title: Ner Ner Ner, Ner för backen ner&#8230;.
+title: Ner Ner Ner, Ner för backen ner….
 url: /2009/02/13/ner-ner-ner-ner-backen-ner/
 ---
 
