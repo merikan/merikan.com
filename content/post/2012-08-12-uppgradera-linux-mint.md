@@ -15,7 +15,7 @@ tags:
 
 Skriver detta inlägg som dokumentation till mig själv.
 
-För ett tag sedan uppgraderade jag Linux Mint från release 12 till 13. Folket på Linux Mint vill att man skall göra en [&#8220;fresh uppgrade&#8221;](http://community.linuxmint.com/tutorial/view/62) vilket innebär att man tar backup på allt sitt data och alla program för att sedan installera över den gamla releasen. Efter att installationen är klar sås skall man läsa tillbaka data och program från backupen. Jag är van att göra en paket-uppgradering istället vilket innebär att man tar en backup (?) och sedan uppgraderar. Beskrivningar för att göra detta är ganska knapphändiga eftersom de inte rekommenderar att man gör på det sättet. Efter att ha googlat runnt en stund så visste jag hur jag skulle göra.
+För ett tag sedan uppgraderade jag Linux Mint från release 12 till 13. Folket på Linux Mint vill att man skall göra en [“fresh uppgrade”](http://community.linuxmint.com/tutorial/view/62) vilket innebär att man tar backup på allt sitt data och alla program för att sedan installera över den gamla releasen. Efter att installationen är klar sås skall man läsa tillbaka data och program från backupen. Jag är van att göra en paket-uppgradering istället vilket innebär att man tar en backup (?) och sedan uppgraderar. Beskrivningar för att göra detta är ganska knapphändiga eftersom de inte rekommenderar att man gör på det sättet. Efter att ha googlat runnt en stund så visste jag hur jag skulle göra.
 
 Öppna filen _/etc/apt/sources.list_ och lägg till följande rader:
 
@@ -44,9 +44,9 @@ Efter att detta var gjort var det bara att köra
 apt-get dist-upgrade
 </pre>
 
-Det gick inte bra första gången och jag var tvungen att ta bort &#8216;mint-search-addon&#8217;
+Det gick inte bra första gången och jag var tvungen att ta bort ‘mint-search-addon’
 
 <pre class="brush: bash; title: ; notranslate" title="">apt-get remove mint-search-addon
 </pre>
 
-Nästa gång kanske jag gör en &#8220;fresh uppgrade&#8221;. Kanske 😉
+Nästa gång kanske jag gör en “fresh uppgrade”. Kanske 😉

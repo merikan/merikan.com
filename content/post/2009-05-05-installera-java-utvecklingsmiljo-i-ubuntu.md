@@ -24,7 +24,7 @@ Dags att sätta upp utvecklingsmiljön i min nyinstallerade Ubuntu 9.04. Jag kom
   * Ant
   * Groovy och Grails
   * Firefox Plugins
-  * och några fler&#8230; 😉
+  * och några fler… 😉
 
 ## Subversion
 
@@ -92,4 +92,4 @@ This product includes software developed by CollabNet (http://www.Collab.Net/).
 /usr/lib/jvm/java-6-sun
 </pre>
         
-        **Det kommer mera snart&#8230;.**
+        **Det kommer mera snart….**

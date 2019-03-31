@@ -28,7 +28,7 @@ Yesterday I downloaded the latest Eclipse named Kepler to my Mac. I unzipped the
 com.apple.quarantine
 </pre>
 
-  4. Remove the &#8216;com.apple.quarantine&#8217; attribute. <pre class="brush: bash; title: ; notranslate" title="">$ xattr -d com.apple.quarantine Eclipse.app/
+  4. Remove the ‘com.apple.quarantine’ attribute. <pre class="brush: bash; title: ; notranslate" title="">$ xattr -d com.apple.quarantine Eclipse.app/
 </pre>
 
 <p dir="ltr">

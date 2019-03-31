@@ -22,7 +22,7 @@ Jag har uppdaterat bloggen till WordPress MU version 2.7, hoppas allt skall fung
 
 Passade även på att lägga till lite teman,  [iNove](http://wordpress.org/extend/themes/inove), [Atahualpa](http://wordpress.org/extend/themes/atahualpa) och [Gear](http://wordpress.org/extend/themes/gear). När jag ändå var igång mig så installerade jag [Farms 100 big ones theme pack](http://wpmudev.org/project/Farms-100-big-ones-theme-pack) , 100 goa teman på ett bräde. Så nu finns det att välja på.
 
-Installerade även tre plugins för att förhoppningsvis förhindra spam. Installerade [Farms comment spam pack](http://wpmudev.org/project/Farms-comment-spam-pack) som innehåller [Simple Trackback Validation](http://sw-guide.de/wordpress/plugins/simple-trackback-validation/), [Simple Spam Filter](http://tantannoodles.com/toolkit/spam-filter/) och [Peter&#8217;s Custom Anti Spam Image Plugin](http://www.theblog.ca/?p=21).
+Installerade även tre plugins för att förhoppningsvis förhindra spam. Installerade [Farms comment spam pack](http://wpmudev.org/project/Farms-comment-spam-pack) som innehåller [Simple Trackback Validation](http://sw-guide.de/wordpress/plugins/simple-trackback-validation/), [Simple Spam Filter](http://tantannoodles.com/toolkit/spam-filter/) och [Peter’s Custom Anti Spam Image Plugin](http://www.theblog.ca/?p=21).
 
 Ha det bra så länge. Ja just det, jag är äntligen klar med förarbetet på duschen och badrummet, så nu är Håkan här och kaklar.
 

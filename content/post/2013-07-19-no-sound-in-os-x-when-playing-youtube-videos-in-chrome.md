@@ -13,9 +13,9 @@ tags:
 - osx
 ---
 
-It have happened a couple of times that I suddenly don&#8217;t have any sound from my speakers when watching YouTube videos in Chrome. I don&#8217;t know how and when this happens but it is easy to fix. Just open a terminal and run &#8220;sudo killall coreaudiod&#8221;. I probably should investigate why this happens but I will do that on a rainy day.
+It have happened a couple of times that I suddenly don’t have any sound from my speakers when watching YouTube videos in Chrome. I don’t know how and when this happens but it is easy to fix. Just open a terminal and run “sudo killall coreaudiod”. I probably should investigate why this happens but I will do that on a rainy day.
 
 <pre class="brush: bash; title: ; notranslate" title="">$ sudo killall coreaudiod
 </pre>
 
-That&#8217;s it.
+That’s it.

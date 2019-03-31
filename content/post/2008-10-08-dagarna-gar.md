@@ -17,8 +17,8 @@ Blev klar med installationen av min NAS. Riktigt trevlig produkt med massor av f
 
 Pappa har kommit igång med googleTalk igen, han lovade att installera skype också så vi kan skypa, lite roligare med webkamera. Funderar faktiskt på att köpa en skypetelefon, vet inte riktigt vilken modell bara. Någon som har något tips?
 
-Alexandra har kommit fram och har tydligen skrivit på sin blogg. Hitta den om ni kan &#8230; ,-)
+Alexandra har kommit fram och har tydligen skrivit på sin blogg. Hitta den om ni kan … ,-)
 
 tills nästa gång, ha det.
 
-爆笑 大陸仔機師 不會說英文 china pilot can&#8217;t speak English (字幕完整版)
+爆笑 大陸仔機師 不會說英文 china pilot can’t speak English (字幕完整版)

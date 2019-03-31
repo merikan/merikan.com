@@ -13,7 +13,7 @@ title: Då var det sista dagen på det här året.
 url: /2007/12/31/da-var-det-sista-dagen-pa-det-har-aret/
 ---
 
-Det kalla vädret verkar ha kommit. Redan igår visade sig solen och det var snabba ryck ut för att ta en promenad i solskenet, äntligen. Det känns som det regnat i evigheter och det är ju inte riktigt så man tänker sig en &#8220;riktig&#8221; jul. F-n, gräsmattan ser ju ut som ett risfält&#8230;., funderar på att plantera lax eller varför inte kräftor. Så kan man ju sitta på altan och fiska upp dem lagom till kräftskivan.
+Det kalla vädret verkar ha kommit. Redan igår visade sig solen och det var snabba ryck ut för att ta en promenad i solskenet, äntligen. Det känns som det regnat i evigheter och det är ju inte riktigt så man tänker sig en “riktig” jul. F-n, gräsmattan ser ju ut som ett risfält…., funderar på att plantera lax eller varför inte kräftor. Så kan man ju sitta på altan och fiska upp dem lagom till kräftskivan.
 
 I lördags var vi på musikalen Footloose som satts upp på [Storan](http://www.storan.nu/). En mycket bra musikal som det svängde om och riktigt bra artister. Storan är tyvärr en riktigt usel arena för detta. Kanske funkar om man sitter nere på parkett men vi satt på andra våningen så det var lite svårt att se allt. Men det är klart att det kanske är så det skall vara, det kan ju vara det som är tjusningen fast jag inte förstått det.
 
@@ -21,7 +21,7 @@ Som sagt var så är det nyår nu så det är bara att korka upp champagnen och 
 
 Ring, klocka, ring i bistra nyårsnatten  
 mot rymdens norrskenssky och markens snö;  
-det gamla året lägger sig att dö&#8230;  
+det gamla året lägger sig att dö…  
 Ring själaringning över land och vatten!
 
 Ring in det nya och ring ut det gamla  
@@ -49,7 +49,7 @@ förtalets lömskhet, avundens försåt.
 Ring in det rätta på triumfens stråt,  
 och ring till seger mänsklighetens fanor.
 
-Ring, klocka, ring&#8230; och seklets krankhet vike;  
+Ring, klocka, ring… och seklets krankhet vike;  
 det dagas, släktet fram i styrka går!  
 Ring ut, ring ut de tusen krigens år,  
 ring in den tusenåra fredens rike!

@@ -27,7 +27,7 @@ read choice								                # read the users's choice of monitor<br />
 xrandr --output $choice --primary					        # set the primary monitor<br />
 `  
 Save it with the name monitor-switcher.sh.  
-Make the script executable with &#8216;chmod +x monitor-switcher.sh. Now it&#8217;s time to run the script.  
+Make the script executable with ‘chmod +x monitor-switcher.sh. Now it’s time to run the script.  
 `<br />
 ~$ ./monitor-switcher.sh<br />
 Enter the primary display from the following:<br />

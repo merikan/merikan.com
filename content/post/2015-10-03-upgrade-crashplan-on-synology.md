@@ -142,7 +142,7 @@ I 10/03/15 03:04PM Upgrade failed - version 1435726800440
 </pre>
   
   <p>
-    You can see that Crashplan has downloaded two versions 440 and 441. It tried to upgrade to 440 but failed. Ok, what is happening here?<br /> Crashplan is downloading the new package 1435726800440.jar and extracts it to 1435726800440.<some number>. After the file is extracted it tries to run the command &#8216;<em>/bin/bash upgrade.sh</em>&#8216; but of course it fails because bash isn’t installed. By default Synology uses Ash Shell on <a href="http://www.busybox.net/downloads/BusyBox.html">Busybox</a>. Since BusyBox provides minimalist replacements for most of the utilities you will get the following error when trying to run the script with ash:
+    You can see that Crashplan has downloaded two versions 440 and 441. It tried to upgrade to 440 but failed. Ok, what is happening here?<br /> Crashplan is downloading the new package 1435726800440.jar and extracts it to 1435726800440.<some number>. After the file is extracted it tries to run the command ‘<em>/bin/bash upgrade.sh</em>‘ but of course it fails because bash isn’t installed. By default Synology uses Ash Shell on <a href="http://www.busybox.net/downloads/BusyBox.html">Busybox</a>. Since BusyBox provides minimalist replacements for most of the utilities you will get the following error when trying to run the script with ash:
   </p>
   
   <pre class="brush: plain; title: ; notranslate" title="">
@@ -370,6 +370,6 @@ cat /var/lib/crashplan/.ui_info ;echo
   </div>
   
   <div>
-    After doing this it&#8217;s time to start the client.
+    After doing this it’s time to start the client.
   </div>
 </div>

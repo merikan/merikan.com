@@ -78,7 +78,7 @@ finns nu Nisses hjärnsubstans._
 
 _Husbonn stiger upp i natten  
 för att kasta lite vatten.  
-Under husbonn&#8217;s tunga toffla,  
+Under husbonn’s tunga toffla,  
 Nisse blir till krämig våffla.  
 Snön ligger vit lite här och var,  
 inte en jäkla tomte finns kvar_

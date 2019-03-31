@@ -42,7 +42,7 @@ $ sudo mv eclipse-3.4 /opt
 
   4. Skapa nu en genväg till Applications 
       1. Högerklicka på **Applications** och välj **Edit Menus**.
-      2. Markera A**pplications|Programming** under **Menus:** och välj sedan **New Item**. Ett nytt fönster öppnas &#8220;Create Launcher&#8221;
+      2. Markera A**pplications|Programming** under **Menus:** och välj sedan **New Item**. Ett nytt fönster öppnas “Create Launcher”
       3. Fyll i värden för den Eclipse installationen du gjorde och klicka sedan på OK.  
         Name: Eclipse-3.4  
         Command: /opt/eclipse-3.4/eclipse  

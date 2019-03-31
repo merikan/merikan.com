@@ -19,4 +19,4 @@ Today I started up my Ubuntu laptop and the login screen was all black. I could 
   2. Use the arrow keys to replace quiet splash with no splash or nomodeset.
   3. Then press the Ctrl+x key combination to boot.
 
-That&#8217;s it. Now everything is fine and dandy
+That’s it. Now everything is fine and dandy
