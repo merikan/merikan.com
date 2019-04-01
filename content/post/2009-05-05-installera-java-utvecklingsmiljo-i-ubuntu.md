@@ -57,7 +57,7 @@ This product includes software developed by CollabNet (http://www.Collab.Net/).
       3. Starta om Nautilus. Om du sedan högerklickar i Nautilus så får du fram några svn alternativ. <pre class="brush: bash; light: true; title: ; notranslate" title="">$ nautilus -q
 </pre>
         
-<img class="alignnone size-medium wp-image-328" src="http://blogs.merikan.com/peter/files/2009/05/nautilussvn-300x242.png" alt="nautilussvn" width="300" height="242" srcset="https://blogs.merikan.com/peter/files/2009/05/nautilussvn-300x242.png 300w, https://blogs.merikan.com/peter/files/2009/05/nautilussvn.png 456w" sizes="(max-width: 300px) 100vw, 300px" /> </li> </ol> 
+<img class="alignnone size-medium wp-image-328" src="/files/2009/05/nautilussvn-300x242.png" alt="nautilussvn" width="300" height="242" srcset="https://blogs.merikan.com/peter/files/2009/05/nautilussvn-300x242.png 300w, https://blogs.merikan.com/peter/files/2009/05/nautilussvn.png 456w" sizes="(max-width: 300px) 100vw, 300px" /> </li> </ol> 
         
         Önskar att det fanns en plugin till Firefox som kunde integrera med NautilusSVN precis som [TortoiseSVN Menu](https://addons.mozilla.org/en-US/firefox/addon/3416/) gör i Windows. Himla smidigt när man surfar till ett repository och sedan kan böra ladda ner det direkt. Man kanske skulle klona TortoiseSVN så att den funkade för NautilusSVN (visst, om jag bara hade tid 😉 ).
         
