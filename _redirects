@@ -1,0 +1,4 @@
+# Netlify settings
+
+# Redirect domain aliases to primary domain
+https://blogs.merikan.com/* https://merikan.com/:splat 301!
