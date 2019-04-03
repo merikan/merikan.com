@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/merikan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.merikan.com
+  * I am merikan (https://keybase.io/merikan) on keybase.
+  * I have a public key with fingerprint A93D 728B 0D00 28A7 1C47  EB10 6F86 D200 24CE 1D22
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.18"
+        },
+        "key": {
+            "eldest_kid": "010173c695e352cb2c5a04ea1f3e3ddcf34ebb60fd425b9446283e1b599cc316ed840a",
+            "fingerprint": "a93d728b0d0028a71c47eb106f86d20024ce1d22",
+            "host": "keybase.io",
+            "key_id": "6f86d20024ce1d22",
+            "kid": "010173c695e352cb2c5a04ea1f3e3ddcf34ebb60fd425b9446283e1b599cc316ed840a",
+            "uid": "4eccf9e12ec408dd7aa1197c9c01c000",
+            "username": "merikan"
+        },
+        "service": {
+            "hostname": "www.merikan.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1442384713,
+    "expire_in": 157680000,
+    "prev": "06e7b73ba5b4e28c7028f9ecbc862415ec7d22ac3dee2925bc3f161a7c365922",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2
+
+owGtkm1QVGUUx3cJYQkxxGjVgYYujUXCcp/7vgsINmWolAk6jiaz3fvcZ+HK7r3L
+7uV9EFPRAcOUHBEJzQSHUHcKZBgHpdCKBqgYGomSQiMzC0KLyRGHme7d2T4008e+
+PXOe3znnf/7nHIp4xGAyKvtGDE9/GYsZB+8Ihs0Pwl+rwARFLMNsFRh0SkhW9ZfM
+uxBmwwpQmcB7kUVS4mRFRJYd3rgAk4gVI49XUmSNwi2cBXBYZaLO69nIKSKvai+Q
+RP0X4IAlIWOlEUkTUCAgzeMU4oGDRKQoQgdJIUFgcIdIEbRgpSiG4EgEBNpqhZAE
+DBI5Cue1hg5JzkMet0fSJWK8lRRZghNwEccJjmcBpFgkAJxxcIxIaDEKIiAShJaY
+r3jVfw2D+ZXa/fL+g/+fdRf5y1EIQocVAQJBCudEkeV5AKwstEIcQBzHddCLPAHj
+XcgjFfCy7qkWLJYg0n3VBwkAJSUllgBkgYpLy3Z7FFWBilP7zFdVt03PVcvcfhgJ
+9kAZuyDJomakf4GNgQ0CDYWqpBcGFEWQHMUCMhFDpW7Jg+ySTtAsw2kqcb0PKtbt
+YRArsKTA0wKFCA6y2ha0+aAAOYagAI0gq7nJQ1JEiLBqDkHSARjAs5BkaKvfZy8q
+lBXMpnVS+TytpFfKk3m1yIOwypqgmGCD0WQIWRCkn6jh0bDIf+42tirSMFCYtnfj
+Jw2+5vH++t4l6MmexOp9Iy+wT3Tx9TPu3JaknnM5b21DhK+vvKlFih9qyxDblsq9
+hf2MeHU6NtTUb4qP/Gry+jbzc5Of5qS+N7x4pzSY+27mym+Wl78eM3AaVL4Npust
+w39ONE/BJa+4Yif/yggZtf8yN//btZB2PrXt4lNtp+fI4cHu1grUs+L5lI2P1aZ3
+5bM551+6u66kZ1n69FhIWtPgcAMR3Uma72bGbyidat4z5+68Ld5ZpaTev+By1RBZ
+RdsLQ64n38w65j0x77s1gpuufXz017Kt68arHDew2bSbKY7GRQ/DXvX8Pp53r6nz
+meo3Tr7jnFkhlyZVH892hm8JHSqMqLdmhgcZK0ZPnSkwfzvT0dEUPh8d3b6m/fuM
+PnXg1Lmz5zuMVTOXw64saDW/6OOuLjwQc6WlnDzSsLt78+UjdOf6HX8kOeHDrE3p
+CTUdCUGRyZd2fhA3dqC2yrKr4WLUoUuNyXtnbqw2Zw2p+FjU4brOuFHh2d04M9vU
+nW1efubC2omDe36MfJ/7bmXm7eDe4P3xA1OhKY+nkj/X1i1986OzUu6teRtt3i9+
+HbahLEc+/vKDiQ+riLr1s1sm+k7aug5+fv+Lw86xKN8uZVFM0TGfaXtC6mo7WLP4
+s6jhknvGTdlhKSeKIlot2NZlRyemyLTiHwxrM+j4nxYOxqyS/gY=
+=G9da
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/merikan
+
+==================================================================
