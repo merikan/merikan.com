@@ -16,7 +16,7 @@ tags:
 
 Yesterday I downloaded the latest Eclipse named Kepler to my Mac. I unzipped the package as usual and tried to launch it by clicking on the Eclipse file. I received the following error message:
 
-<a href="/files/2013/08/2013-08-10_1731.png" rel="lightbox[515]"><img class="alignnone size-medium wp-image-516" alt="2013-08-10_1731" src="http://blogs.merikan.com/peter/files/2013/08/2013-08-10_1731-300x137.png" width="300" height="137" srcset="https://blogs.merikan.com/peter/files/2013/08/2013-08-10_1731-300x137.png 300w, https://blogs.merikan.com/peter/files/2013/08/2013-08-10_1731.png 420w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href="/files/2013/08/2013-08-10_1731.png" rel="lightbox[515]"><img class="alignnone size-medium wp-image-516" alt="2013-08-10_1731" src="/files/2013/08/2013-08-10_1731-300x137.png" width="300" height="137" srcset="/files/2013/08/2013-08-10_1731-300x137.png 300w, /files/2013/08/2013-08-10_1731.png 420w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
 <p dir="ltr">
   After a quick search on the internet I found the solution in a bug report at <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=398450">Eclipse Bugs</a> . It is the OS X GateKeeper that thinks that the file is corrupt and should be moved to trash. However, the problem is easy the solve. Just follow the following steps.
