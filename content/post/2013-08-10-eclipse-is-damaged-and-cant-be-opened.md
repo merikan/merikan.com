@@ -7,7 +7,7 @@ dsq_thread_id:
 - "5316568562"
 guid: http://blogs.merikan.com/peter/?p=515
 id: 515
-title: “Eclipse” is damaged and can’t be opened.
+title: “Eclipse” is damaged and can’t be opened
 aliases: ["peter/2013/08/10/eclipse-is-damaged-and-cant-be-opened/"]
 tags:
 - java
