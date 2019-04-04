@@ -1,0 +1,24 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:security@merikan.com
+Contact: https://twitter.com/pmerikan
+Encryption: https://keybase.io/merikan
+Preferred-Languages: en, se
+Canonical: https://merikan.com/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEqT1yiw0AKKccR+sQb4bSACTOHSIFAlymRJ4ACgkQb4bSACTO
+HSKxmRAAuOtBMngD1MceVX24W/pROhrC3GWwQ61i0NhDpYzEU+wStCIQe4NdotsV
+z7KS9NkbYt58Zh3dVNg60r2fOIwbIVGkFawJaoBSM1KnfTJ3P177Ye+9/ZuGVpqm
+NI0B6pFJrno/Vl7ZHTnHhqP62+rB879QCzjpiayMTMVSEaUH53U0YxXqXW4Im/Fq
+GR7NEeVUAOvRiNa+F4/pk8RXX1PjBYqWXfBTPRpQrV/baDzcK37NdJN1pUgjedEU
+WM8X0aLvu6l1JZyjyeuj7+0h7fJd8ZA1G2S1jSj4psDcvQOaTRxPa1JNAthoz5kd
+QIdc4O/iNjugx35ANyehOG14td49ZtImU2YUkZm0hnGxFSiI6vRFEC3rDsmGYl1U
+Du7/T5RAIrHdUfNIEzFjt2tYAjuBzdr+SYsdH7OPd9LNcrZ37uD/jTzsrVAWOniU
+WvoiIuTDhUW1Y8bIkJa3vvk7I05U8syL4NXkaugipuGl2htA74SZmS/uskiYJQVs
+MEzNin6f5K38MJPOm97bbmlzWHvesmbJiqPQxB76y1P4I+Rz73qjP9bAm9ulAG23
+4NeU5eIs/eVuTNW4vUnQzraRQBetAO1mz/q6lPkNNy0KkDVyC+zUBSTOemGXBdG2
+klbWWfoCafBa9DNkYXGXAkJrK8RaQwIvIcCggAeAqAKJs/7VGUA=
+=vy3a
+-----END PGP SIGNATURE-----
