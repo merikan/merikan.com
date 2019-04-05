@@ -2,3 +2,5 @@
 
 # Redirect domain aliases to primary domain
 https://blogs.merikan.com/* https://merikan.com/:splat 301!
+https://merikan.org/* https://merikan.com/:splat 301!
+https://merikan.blog/* https://merikan.com/:splat 301!
