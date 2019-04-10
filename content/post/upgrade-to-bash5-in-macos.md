@@ -42,6 +42,10 @@ and for bash use `.bashrc` or `.profile`
 ```bash
 export PATH=/usr/local/bin:$PATH
 ```
+Reload your current shell if you changed the path
+```bash
+$ exec $SHELL -l
+```
 Print version of our newly installed bash
 ```bash
 $ bash -version
