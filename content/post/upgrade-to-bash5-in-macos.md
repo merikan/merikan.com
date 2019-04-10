@@ -10,7 +10,7 @@ tags : ["macos", "bash"]
 categories: ["technology"]
 
 ---
-I am a long time user of zsh but I also use bash now and then. I admit that I have used the default bash installation in MacOS but now was the time to upgrade to the latest bash version. With Homebrew it's super easy.
+I am a long time user of zsh but I also use bash now and then but mostly when running bash scripts. I admit that I have used the default bash installation in MacOS but now was the time to upgrade to the latest bash version. With Homebrew it's super easy.
 
 Print current version   
 ```bash
@@ -30,19 +30,19 @@ Install bash via homebrew
 $ brew install bash
 ```
 
-Make sure `/usr/local/bin` is in your path before `/bin`
-for zsh use ´.zprofile´
+Make sure `/usr/local/bin` is in your path before `/bin`   
+for zsh use `.zprofile`
 ```bash
 path=(
   /usr/local/{bin,sbin}
   $path[@]
 )
 ```
-and for bash use ´.bashrc´ or ´.profile`
+and for bash use `.bashrc` or `.profile`
 ```bash
 export PATH=/usr/local/bin:$PATH
 ```
-Show version for our newly installed bash
+Print version of our newly installed bash
 ```bash
 $ bash -version
 GNU bash, version 5.0.3(1)-release (x86_64-apple-darwin18.2.0)
@@ -54,9 +54,9 @@ Print location of bash
 $ command -v bash
 /usr/local/bin/bash
 ```
-Add our installed bash to list of available login shells
+Add our installed bash to the list of available login shells
 ```bash
-$ sudo bash -c ‘echo "$(command -v bash)" >> /etc/shells'
+$ sudo bash -c 'echo "$(command -v bash)" >> /etc/shells'
 ```
 Print the list of available shells and make sure our version is there
 ```bash
@@ -72,10 +72,6 @@ $ cat /etc/shells
 /bin/zsh
 /usr/local/bin/bash
 ```
-Reload your current shell
-```bash
-$ exec $SHELL -l
-```
 Change your profile to use the new bash shell
 ```bash
 $ chsh -s $(command -v bash)
@@ -86,4 +82,4 @@ $ dscl . -read /Users/$(whoami) UserShell
 UserShell: /usr/local/bin/bash
 ```
 
-That's it. Start a new terminal and use bash 5 or whatever version is the lastest :-)
+That's it. Start a new terminal and use bash 5 or whatever version is the lastest 😀
