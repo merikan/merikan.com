@@ -10,7 +10,7 @@ tags : ["macos", "bash"]
 categories: ["technology"]
 
 ---
-I am a long time user of zsh but I also use bash now and then but mostly when running bash scripts. I admit that I have used the default bash installation in MacOS but now was the time to upgrade to the latest bash version. With Homebrew it's super easy.
+I am a long time user of [Zsh](https://www.zsh.org/) but I also use Bash now and then but mostly when running bash scripts. The other day when upgrading [SdkMan](https://sdkman.io/) it complained that I was using an old version of bash. I have to admit that I have used the default bash installation in MacOS. What I didn't know was that Apple will not update Bash, because the latest version is licensed under GPLv3, which Apple cannot use. But now was the time to upgrade to the latest bash version. With Homebrew it's super easy.
 
 Print current version   
 ```bash
