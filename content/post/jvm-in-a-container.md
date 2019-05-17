@@ -8,18 +8,24 @@ description: "How different Java version fits in a container"
 #image: ""
 tags: ["java", "docker"]
 categories: ["technology"]
-
+showtoc: true
+lastmod: 2019-05-17T14:14:39+0200
 ---
 
+# tl:dr
+Until Java 8u131 and Java 9 the JVM did not recognize memory or cpu limits set by the container. First implementation was a experimental feature and had its flaws but in Java 10, memory limits are automatically recognized and enforced. This feature was then backported to Java-8u191.
+
+# Introduction
 Yesterday I had to troubleshoot a Java application in a Kubernetes cluster. The application acted very strange and it looked like we had a 
-out of memory situation. The docker image had a hard coded value for maximum and minimum heap size and of course it was not good but I can 
-only blame that the post-it note has fallen down. Anyhow it was time to implement it as an environment variable instead so I could set the value 
-in the manifest at deploy time. The application uses Java 8 and I did know about the `UnlockExperimentalVMOptions` and `UseCGroupMemoryLimitForHeap` flags 
+out of memory situation. The docker image had a hard coded value for maximum and minimum heap size and of course it was not good, I can only blame it on the post-it note that had fallen down. Anyhow, it was time to implement it as an environment variable instead so I could set the value 
+in the manifest at deploy time. 
+
+The application uses Java 8 and I did know about the `UnlockExperimentalVMOptions` and `UseCGroupMemoryLimitForHeap` flags 
 but by an accident I saw that Java 8 Update 191 has backported the Java 10 feature and I will show you that later on. 
 
-Until Java 9 the JVM did not recognize memory or cpu limits set by the container. In Java 10, memory limits are automatically recognized and enforced.
+Until Java 8u131 and Java 9 the JVM did not recognize memory or cpu limits set by the container. In Java 10, memory limits are automatically recognized and enforced. This feature was then backported to Java-8u191.
 
-### Java 8u131
+# Java 8u131 and Java 9
 [Java 8u131](https://www.oracle.com/technetwork/java/javase/8u131-relnotes-3565278.html) first implemented a experimental feature called `UseCGroupMemoryLimitForHeap`. It was a first attempt and had its flaws. Let's have a look what it looks 
 like in Java 8 before Java 8u131.
 
@@ -141,7 +147,7 @@ VM settings:
 
 Conclusion is that `MaxRAMFraction` is hard to work with since it’s a fraction so you must choose your value wisely.
 
-### Java 10+
+# Java 10+
 With Java 10 came better support for Container environment. If you run your Java application in a Linux container the JVM will automatically detect the Control Group memory limit with the `UseContainerSupport` option.
 You can then control the memory with the following options, `InitialRAMPercentage`, `MaxRAMPercentage` and `MinRAMPercentage`. As you can see we have percentage instead of fraction, which is nice and much more useful.
 
@@ -191,7 +197,7 @@ VM settings:
 ```
 That is much better and with this configuration we managed to control our JVM to start at 500MB and then grow to maximum 792.69MB
 
-### Backported to Java 8
+# Backported to Java 8
 As we said earlier, option `UseContainerSupport` was [backported to Java 8u191](https://www.oracle.com/technetwork/java/javase/8u191-relnotes-5032181.html) and activated by default.
 ```bash
 ➜ docker run -m 1GB openjdk:8u191-alpine java \
@@ -235,7 +241,7 @@ Nice, much better.  We can now use the `UseContainerSupport` option with our Jav
 But be aware that experimental feature `UseCGroupMemoryLimitForHeap` is still available but deprecated and you should stop using that immediately.
 
 
-### Set the memory cap
+# Set the memory cap
 So we now know that the JVM is container aware and we should set the provided amount of memory in our runtime environment. You are probable running your apps in Kubernetes and this how we set the memory in the Kubernetes manifest.
 ```bash
 resources: 
@@ -245,6 +251,28 @@ resources:
       memory: 256Mi
 ```
 `Limits` is the maximum memory and `requests` is the minimum memory.
+
+# Bonus
+When running a JVM in a docker container it is probably wise to use the `HeapDumpOnOutOfMemoryError` option so if you ever run out of memmory the jvm will write a dump of the heap to disk.
+
+By default the heap dump is created in a file called java_pid.hprof in the working directory of the VM. You can specify an alternative file name or directory with the -XX:HeapDumpPath= option. For example -XX:HeapDumpPath=/disk2/dumps will cause the heap dump to be generated in the /disk2/dumps directory.
+
+Your working directory can be found via the pwdx <PID> command. First do a ps -ef | grep java, find your PID for your java app, then run pwdx <PID>. It'll tell you the working directory.
+
+This is how it could look like in a deployment manifest for Kubernetes.
+```bash
+...
+env:
+- name: JAVA_OPTS
+  value: "-XX:MinRAMPercentage=60.0 -XX:MaxRAMPercentage=90.0 -XX:-HeapDumpOnOutOfMemoryError"
+...
+resources: 
+    limits:
+        memory: 512Mi
+    requests:
+        memory: 256Mi
+```
+
 
 That's it. Now you know how to set the Heap Size for a Java Container.
 
