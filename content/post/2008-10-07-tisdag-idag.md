@@ -3,7 +3,6 @@ author: peter
 categories:
 - personligt
 date: 2008-10-07T22:10:16Z
-guid: http://blogs.merikan.com/peter/2008/10/07/tisdag-idag/
 id: 28
 syntaxhighlighter_encoded:
 - "1"

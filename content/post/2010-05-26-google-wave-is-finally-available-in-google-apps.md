@@ -3,7 +3,6 @@ author: peter
 categories:
 - technology
 date: 2010-05-26T20:09:20Z
-guid: http://blogs.merikan.com/peter/2010/05/26/google-wave-is-finally-available-in-google-apps/
 id: 419
 tags:
 - google

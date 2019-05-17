@@ -5,7 +5,6 @@ categories:
 date: 2011-08-06T14:17:56Z
 dsq_thread_id:
 - "6143709017"
-guid: http://blogs.merikan.com/peter/?p=468
 id: 468
 tags:
 - linux

@@ -5,7 +5,6 @@ categories:
 date: 2009-06-11T22:22:05Z
 dsq_thread_id:
 - "6283397282"
-guid: http://blogs.merikan.com/peter/2009/06/11/imorgon-aker-josse-till-usa/
 id: 386
 syntaxhighlighter_encoded:
 - "1"

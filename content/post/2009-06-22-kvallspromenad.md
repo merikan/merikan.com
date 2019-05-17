@@ -3,7 +3,6 @@ author: peter
 categories:
 - personligt
 date: 2009-06-22T18:30:31Z
-guid: http://blogs.merikan.com/peter/2009/06/22/kvallspromenad/
 id: 400
 syntaxhighlighter_encoded:
 - "1"

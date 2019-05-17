@@ -3,7 +3,6 @@ author: peter
 categories:
 - personligt
 date: 2008-10-25T19:01:17Z
-guid: http://blogs.merikan.com/peter/2008/10/25/idag-har-vi-hjalp-terez-och-mikael-att-flytta-2/
 id: 69
 syntaxhighlighter_encoded:
 - "1"

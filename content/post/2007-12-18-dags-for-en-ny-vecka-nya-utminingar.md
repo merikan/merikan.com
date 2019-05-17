@@ -5,7 +5,6 @@ categories:
 date: 2007-12-18T07:59:05Z
 dsq_thread_id:
 - "5740308642"
-guid: http://blogs.merikan.com/peter/2007/12/18/dags-for-en-ny-vecka-nya-utminingar/
 id: 3
 syntaxhighlighter_encoded:
 - "1"

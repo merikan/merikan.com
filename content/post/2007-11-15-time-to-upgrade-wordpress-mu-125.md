@@ -5,7 +5,6 @@ categories:
 date: 2007-11-15T22:59:56Z
 dsq_thread_id:
 - "5470307857"
-guid: http://blogs.merikan.com/flumride/2007/11/15/time-to-upgrade-wordpress-mu-125/
 id: 109
 syntaxhighlighter_encoded:
 - "1"

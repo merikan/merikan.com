@@ -5,7 +5,6 @@ categories:
 date: 2012-08-12T19:46:48Z
 dsq_thread_id:
 - "6132418866"
-guid: http://blogs.merikan.com/peter/?p=502
 id: 502
 title: Alldeles för tyst vid datorn
 aliases: ["peter/2012/08/12/alldeles-for-tyst-vid-datorn/"]

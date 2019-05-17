@@ -3,7 +3,6 @@ author: peter
 categories:
 - personligt
 date: 2008-10-05T18:01:33Z
-guid: http://blogs.merikan.com/peter/2008/10/05/sondag-kvall-och-imorgon-aker-alex/
 id: 22
 syntaxhighlighter_encoded:
 - "1"

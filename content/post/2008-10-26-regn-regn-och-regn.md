@@ -3,7 +3,6 @@ author: peter
 categories:
 - personligt
 date: 2008-10-26T22:23:14Z
-guid: http://blogs.merikan.com/peter/2008/10/26/regn-regn-och-regn/
 id: 73
 syntaxhighlighter_encoded:
 - "1"

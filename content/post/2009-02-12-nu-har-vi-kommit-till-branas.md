@@ -5,7 +5,6 @@ categories:
 date: 2009-02-12T20:17:42Z
 dsq_thread_id:
 - "5316568423"
-guid: http://blogs.merikan.com/peter/?p=155
 id: 155
 title: Nu har vi kommit till Branäs
 aliases: ["peter/2009/02/12/nu-har-vi-kommit-till-branas/"]

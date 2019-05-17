@@ -3,7 +3,6 @@ author: peter
 categories:
 - technology
 date: 2011-02-15T22:22:22Z
-guid: http://blogs.merikan.com/peter/?p=446
 id: 446
 tags:
 - google

@@ -3,7 +3,6 @@ author: peter
 categories:
 - technology
 date: 2009-10-04T19:41:21Z
-guid: http://blogs.merikan.com/peter/?p=409
 id: 409
 syntaxhighlighter_encoded:
 - "1"

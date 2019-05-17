@@ -5,7 +5,6 @@ categories:
 date: 2007-12-24T14:28:37Z
 dsq_thread_id:
 - "5740309160"
-guid: http://blogs.merikan.com/peter/2007/12/24/julafton-ar-antligen-har/
 id: 6
 syntaxhighlighter_encoded:
 - "1"

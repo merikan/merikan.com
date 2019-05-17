@@ -5,7 +5,6 @@ categories:
 date: 2014-02-19T09:34:08Z
 dsq_thread_id:
 - "6132417861"
-guid: http://blogs.merikan.com/peter/?p=554
 id: 554
 title: Regex and negative lookbehind
 aliases: ["peter/2014/02/19/regex-and-negative-lookbehind/"]

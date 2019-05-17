@@ -3,7 +3,6 @@ author: peter
 categories:
 - personligt
 date: 2008-12-23T19:43:52Z
-guid: http://blogs.merikan.com/peter/?p=141
 id: 141
 title: Börjar bli frisk nu.
 aliases: ["peter/2008/12/23/borjar-bli-frisk-nu/"]

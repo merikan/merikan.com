@@ -5,7 +5,6 @@ categories:
 date: 2014-01-12T15:59:16Z
 dsq_thread_id:
 - "6132418143"
-guid: http://blogs.merikan.com/peter/?p=546
 id: 546
 title: Black screen when starting Ubuntu
 aliases: ["peter/2014/01/12/black-screen-when-starting-ubuntu/"]

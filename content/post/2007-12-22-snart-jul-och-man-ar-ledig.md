@@ -5,7 +5,6 @@ categories:
 date: 2007-12-22T19:37:53Z
 dsq_thread_id:
 - "5316568363"
-guid: http://blogs.merikan.com/peter/2007/12/22/snart-jul-och-man-ar-ledig/
 id: 4
 syntaxhighlighter_encoded:
 - "1"

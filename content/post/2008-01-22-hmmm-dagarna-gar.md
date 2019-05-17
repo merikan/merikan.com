@@ -3,7 +3,6 @@ author: peter
 categories:
 - personligt
 date: 2008-01-22T20:39:51Z
-guid: http://blogs.merikan.com/peter/2008/01/22/hmmm-dagarna-gar/
 id: 9
 syntaxhighlighter_encoded:
 - "1"

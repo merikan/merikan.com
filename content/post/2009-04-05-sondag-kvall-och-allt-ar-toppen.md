@@ -3,7 +3,6 @@ author: peter
 categories:
 - personligt
 date: 2009-04-05T21:16:38Z
-guid: http://blogs.merikan.com/peter/?p=182
 id: 182
 syntaxhighlighter_encoded:
 - "1"

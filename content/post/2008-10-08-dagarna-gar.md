@@ -3,7 +3,6 @@ author: peter
 categories:
 - personligt
 date: 2008-10-08T21:20:43Z
-guid: http://blogs.merikan.com/peter/2008/10/08/dagarna-gar/
 id: 34
 syntaxhighlighter_encoded:
 - "1"

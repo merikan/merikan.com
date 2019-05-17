@@ -3,7 +3,6 @@ author: peter
 categories:
 - technology
 date: 2010-07-14T08:09:32Z
-guid: http://blogs.merikan.com/peter/?p=432
 id: 432
 title: More disk capacity
 aliases: ["peter/2010/07/14/more-disk-capacity/"]

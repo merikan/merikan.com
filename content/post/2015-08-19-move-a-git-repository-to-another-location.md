@@ -5,7 +5,6 @@ categories:
 date: 2015-08-19T20:52:16Z
 dsq_thread_id:
 - "5601003880"
-guid: http://blogs.merikan.com/peter/?p=573
 id: 573
 title: Move a git repository to another location.
 aliases: ["peter/2015/08/19/move-a-git-repository-to-another-location/"]

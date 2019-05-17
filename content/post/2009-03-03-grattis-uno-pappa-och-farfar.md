@@ -5,7 +5,6 @@ categories:
 date: 2009-03-03T12:13:51Z
 dsq_thread_id:
 - "5316568523"
-guid: http://blogs.merikan.com/peter/?p=176
 id: 176
 title: Grattis Uno, Pappa och farfar
 aliases: ["peter/2009/03/03/grattis-uno-pappa-och-farfar/"]

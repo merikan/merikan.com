@@ -3,7 +3,6 @@ author: peter
 categories:
 - personligt
 date: 2008-01-27T17:22:55Z
-guid: http://blogs.merikan.com/peter/2008/01/27/en-underbar-sondag-med-solsken-och-allt/
 id: 10
 syntaxhighlighter_encoded:
 - "1"

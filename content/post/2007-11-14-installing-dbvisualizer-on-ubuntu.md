@@ -5,7 +5,6 @@ categories:
 date: 2007-11-14T20:58:42Z
 dsq_thread_id:
 - "5316568525"
-guid: http://blogs.merikan.com/flumride/2007/11/14/installing-dbvisualizer-on-ubuntu/
 id: 108
 syntaxhighlighter_encoded:
 - "1"

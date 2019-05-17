@@ -3,7 +3,6 @@ author: peter
 categories:
 - personligt
 date: 2009-02-14T18:27:55Z
-guid: http://blogs.merikan.com/peter/?p=171
 id: 171
 title: Sista dagen innan hemresa
 aliases: ["peter/2009/02/14/sista-dagen-innan-hemresa/"]

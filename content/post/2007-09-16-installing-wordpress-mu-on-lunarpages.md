@@ -5,7 +5,6 @@ categories:
 date: 2007-09-16T14:30:31Z
 dsq_thread_id:
 - "5316568392"
-guid: http://blogs.merikan.com/flumride/2007/09/16/installing-wordpress-mu-on-lunarpages/
 id: 107
 syntaxhighlighter_encoded:
 - "1"

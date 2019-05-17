@@ -5,7 +5,6 @@ categories:
 date: 2014-04-06T15:27:20Z
 dsq_thread_id:
 - "5388605575"
-guid: http://blogs.merikan.com/peter/?p=560
 id: 560
 title: Mavericks and slow Finder
 aliases: ["peter/2014/04/06/mavericks-and-slow-finder/"]

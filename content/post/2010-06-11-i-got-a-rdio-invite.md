@@ -5,7 +5,6 @@ categories:
 date: 2010-06-11T17:56:33Z
 dsq_thread_id:
 - "5316568463"
-guid: http://blogs.merikan.com/peter/2010/06/11/i-got-a-rdio-invite/
 id: 424
 openid_comments:
 - a:2:{i:0;s:2:"33";i:1;s:2:"36";}

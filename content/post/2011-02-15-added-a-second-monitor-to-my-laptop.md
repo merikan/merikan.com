@@ -3,7 +3,6 @@ author: peter
 categories:
 - technology
 date: 2011-02-15T19:15:38Z
-guid: http://blogs.merikan.com/peter/?p=438
 id: 438
 tags:
 - linux

@@ -5,7 +5,6 @@ categories:
 date: 2009-11-21T15:47:04Z
 dsq_thread_id:
 - "5422527501"
-guid: http://blogs.merikan.com/peter/?p=414
 id: 414
 syntaxhighlighter_encoded:
 - "1"

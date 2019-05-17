@@ -5,7 +5,6 @@ categories:
 date: 2012-08-12T19:26:35Z
 dsq_thread_id:
 - "6132419051"
-guid: http://blogs.merikan.com/peter/?p=494
 id: 494
 title: Uppgradera Linux Mint
 aliases: ["peter/2012/08/12/uppgradera-linux-mint/"]

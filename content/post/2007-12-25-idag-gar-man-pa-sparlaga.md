@@ -3,7 +3,6 @@ author: peter
 categories:
 - personligt
 date: 2007-12-25T14:10:24Z
-guid: http://blogs.merikan.com/peter/2007/12/25/idag-gar-man-pa-sparlaga/
 id: 7
 syntaxhighlighter_encoded:
 - "1"

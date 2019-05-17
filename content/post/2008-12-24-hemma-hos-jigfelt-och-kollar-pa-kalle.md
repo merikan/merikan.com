@@ -5,7 +5,6 @@ categories:
 date: 2008-12-24T15:59:34Z
 dsq_thread_id:
 - "5316568556"
-guid: http://blogs.merikan.com/peter/?p=147
 id: 147
 title: Hemma hos Jigfelt och kollar på Kalle
 aliases: ["peter/2008/12/24/hemma-hos-jigfelt-och-kollar-pa-kalle/"]

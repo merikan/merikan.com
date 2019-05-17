@@ -3,7 +3,6 @@ author: peter
 categories:
 - personligt
 date: 2008-11-01T08:26:31Z
-guid: http://blogs.merikan.com/peter/2008/11/01/godmorgon/
 id: 77
 syntaxhighlighter_encoded:
 - "1"

@@ -5,7 +5,6 @@ categories:
 date: 2007-12-31T10:33:13Z
 dsq_thread_id:
 - "5316568522"
-guid: http://blogs.merikan.com/peter/2007/12/31/da-var-det-sista-dagen-pa-det-har-aret/
 id: 8
 syntaxhighlighter_encoded:
 - "1"
