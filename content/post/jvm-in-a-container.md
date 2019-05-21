@@ -268,7 +268,7 @@ This is how it could look like in a deployment manifest for Kubernetes.
 ...
 env:
 - name: JAVA_OPTS
-  value: "-XX:MinRAMPercentage=60.0 -XX:MaxRAMPercentage=90.0 -XX:-HeapDumpOnOutOfMemoryError"
+  value: "-XX:MinRAMPercentage=60.0 -XX:MaxRAMPercentage=90.0 -XX:+HeapDumpOnOutOfMemoryError"
 ...
 resources: 
     limits:
