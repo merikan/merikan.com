@@ -255,7 +255,7 @@ resources:
 # Bonus
 When running a JVM in a docker container it is probably wise to use the `HeapDumpOnOutOfMemoryError` option so if you ever run out of memmory the jvm will write a dump of the heap to disk.
 
-By default the heap dump is created in a file called `java_pid.hprof` in the working directory of the VM. You can specify an alternative file name or directory with the `-XX:HeapDumpPath=` option. For example `-XX:HeapDumpPath=/disk2/dumps` will cause the heap dump to be generated in the `/disk2/dumps` directory.
+By default the heap dump is created in a file called `java_pid.hprof` in the working directory of the VM. You can specify an alternative file name or directory with the `-XX:HeapDumpPath=` option. For example `-XX:HeapDumpPath=/disk2/dumps` will cause the heap dump to be generated in the `/disk2/dumps` directory. Make sure that the java process has write access to the directory where the heap dump is written. 
 
 Your working directory can be found via the `pwdx <PID>` command. The pid number for the Java program process is with the greatest probability `1` but you can find out with the command `ps -ef | grep java`. Then run `pwdx <PID>` and it will tell you the working directory.
 ```bash
