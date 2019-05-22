@@ -2,7 +2,6 @@
 title: "How to Sign Git Commits"
 date: 2019-05-22T19:30:48+02:00
 author: Peter
-
 #subtitle: ""
 #description: ""
 #image: ""
@@ -21,7 +20,7 @@ $ brew install gnupg
 ## Generate a key
 First we have to generate a key that we will use. If you already have a key that you want to use when signing commits, jump over this step. 
 
-Let’s generate our first key. Use RSA and RSA, a key size of 4096, and no expiration date. Remember to choose a strong pass-phrase and your real name.
+Let’s generate our first key. Use RSA and a key size of 4096, and no expiration date. Remember to choose a strong pass-phrase and your real name and e-mail address.
 ```bash
 $ gpg --full-generate-key
 gpg (GnuPG) 2.2.13; Copyright (C) 2019 Free Software Foundation, Inc.
@@ -82,7 +81,7 @@ sub   rsa4096 2019-03-17 [E]
 
 ```
 
-Great, now you have your own pgp keys, one private and one public. Don’t loose your keys and revocation key. Keep them in a safe place offline or at least put them in a key store e.g. [KeaPassXC](https://keepassxc.org) and put that in the cloud.
+Great, now you have your own pgp keys, one private and one public. Don’t loose your keys and revocation key. Keep them in a safe place offline or at least put them in a key store e.g. [KeePassXC](https://keepassxc.org) and put that in the cloud.
 
 List your keys in the gpg keyring and make sure everything looks ok.
 ```bash
@@ -101,7 +100,7 @@ ssb   rsa4096/7FD20308418E6C51 2019-03-17 [E]
 ```
 
 ## Sign with the key
-Time to test if we can sign with our key.
+Time to test if we can sign with our key.   
 Run the following command:
 ```bash
 $ echo "test" | gpg --clearsign
@@ -111,7 +110,7 @@ If you get following error:
 gpg: signing failed: Inappropriate ioctl for device
 gpg: [stdin]: clear-sign failed: Inappropriate ioctl for device
 ```
-then we have to help gnu-pg to understand the terminal type. Run the following command:
+then you have to help gnupg to understand the terminal type. Run the following command:
 ```bash
 export GPG_TTY=$(tty)
 ```
@@ -160,7 +159,7 @@ Since we are lazy and don't want to enter our passphrase everytime, we can store
 ```bash
 $ brew install pinentry-mac
 ```
-We have to make gpg use the new gpg-agent. Create the following file, if it doesn’t exist, `~/.gnupg/gpg-agent.conf`
+We have to make gpg-agent use the new pinentry. Create the following file, if it doesn’t exist, `~/.gnupg/gpg-agent.conf`
 ```bash
 $ vim ~/.gnupg/gpg-agent.conf
 ```
@@ -178,7 +177,7 @@ $ echo "test" | gpg --clearsign
 ```
 and you will see the following graphical prompt.
 ![pin-entry image](/files/how-to-sign-git-commits/pinentry-mac.png)
-Enter your passphrase and check Save in keychain. Then press OK.
+Enter your passphrase and check the `Save in keychain` checkbox and then press OK.   
 You will now see 
 ```bash
 -----BEGIN PGP SIGNED MESSAGE-----
