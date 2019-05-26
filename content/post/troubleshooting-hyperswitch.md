@@ -60,13 +60,13 @@ and start `iTerm`.
 ```bash
 $ open -a iTerm
 ```
-After opening iTerm I just verified that Hyperswitch is working as intended.
+After opening iTerm I just verified that Hyperswitch was working as intended.
 
 The menu option for Secure Input for iTerm can be found at iTerm2 > Secure Keyboard Entry
 ![Menu Option in iTerm](/files/troubleshooting-hyperswitch/iterm2-secure-input.png)
 
-That's it. I finally nailed it and feels great. 
+That's it. I finally nailed it and it feels great. 
 
-Until next time, take care and remember, you are best.
+Until next time, take care and remember, you are [great](https://www.youtube.com/watch?v=Cbk980jV7Ao).
 
 If you find ambiguities, typos or other errors, you know what to do. 
