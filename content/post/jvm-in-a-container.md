@@ -3,10 +3,10 @@ title: "JVM in a Container"
 date: 2019-04-03T16:45:26+02:00
 author: Peter
 
-subtitle: "How different Java version fits in a container"
-description: "How different Java version fits in a container"
+subtitle: "How different Java versions behave in a container"
+description: "How different Java versions behave in a container"
 #image: ""
-tags: ["java", "docker"]
+tags: ["java", "docker", "kubernetes"]
 categories: ["technology"]
 showtoc: true
 lastmod: 2019-05-17T14:14:39+0200
