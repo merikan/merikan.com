@@ -30,6 +30,10 @@ home = ["HTML", "RSS"]
 
   about_me = true 
 
+  custom_css = ["css/lightbox.min.css", "css/main.css"]
+  custom_js = ["js/lightbox.min.js", "js/main.js"]
+
+
   [params.social]
   rss            = true 
   email          = "peter@merikan.com"
