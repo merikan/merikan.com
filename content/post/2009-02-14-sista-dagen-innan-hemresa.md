@@ -15,4 +15,4 @@ Skidorna är inlämnade nu och pizza har vi fått i oss. Själv skall jag in och
 Tjipp.
 
 Så här härligt hade vi det på morgonen.  
-<a title="Morgon" rel="lightbox" href="/files/2009/02/morgon.jpg"><img class="alignnone size-medium wp-image-172" src="/files/2009/02/morgon-300x225.jpg" alt="Morgonsol" width="300" height="225" srcset="/files/2009/02/morgon-300x225.jpg 300w, https://blogs.merikan.com/peter/files/2009/02/morgon.jpg 816w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a title="Morgon" rel="lightbox" href="/files/2009/02/morgon.jpg"><img class="alignnone size-medium wp-image-172" src="/files/2009/02/morgon-300x225.jpg" alt="Morgonsol" width="300" height="225" srcset="/files/2009/02/morgon-300x225.jpg 300w, /files/2009/02/morgon.jpg 816w" sizes="(max-width: 300px) 100vw, 300px" /></a>
