@@ -5,6 +5,7 @@ title = "Merikan Blog"
 theme = "hugo-theme-cleanwhite"
 disqusShortname = "merikan"
 paginate = 10 #frontpage pagination
+googleAnalytics = "UA-150740005-1"
 
 [permalinks]
   post = "/:year/:month/:slug/"
@@ -24,7 +25,6 @@ home = ["HTML", "RSS"]
   # Sidebar settings
   sidebar_about_description = "Software Developer, Open Source Enthusiast and Life Adventurer"
   sidebar_avatar = "img/avatar.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
-
   featured_tags = true 
   featured_condition_size = 2
 
