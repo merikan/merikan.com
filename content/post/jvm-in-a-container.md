@@ -13,7 +13,8 @@ lastmod: 2019-05-17T14:14:39+0200
 ---
 
 # tl:dr
-Until Java 8u131 and Java 9 the JVM did not recognize memory or cpu limits set by the container. First implementation was a experimental feature and had its flaws but in Java 10, memory limits are automatically recognized and enforced. This feature was then backported to Java-8u191.
+Until Java 8u131 and Java 9 the JVM did not recognize memory or cpu limits set by the container. First implementation was a experimental feature and had its flaws but in Java 10, memory limits are automatically recognized and enforced. This feature was then backported to Java-8u191.   
+If you are running Java 8 update 191 or later, or Java 10, 11,12, 13 etc. you must NOT use the `UseCGroupMemoryLimitForHeap` option. Instead you should use the `UseContainerSupport` that is activated by default. 
 
 # Introduction
 Yesterday I had to troubleshoot a Java application in a Kubernetes cluster. The application acted very strange and it looked like we had a 
