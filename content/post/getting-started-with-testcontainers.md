@@ -1,7 +1,7 @@
 ---
 title: "Getting started with Testcontainers"
 date: 2020-10-09T18:46:18+02:00
-draft: true
+draft: false
 author: Peter
 
 subtitle: "What is Testcontainers and why should I use it?"

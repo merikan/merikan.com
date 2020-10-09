@@ -1,7 +1,7 @@
 ---
 title: "Speed up your Testcontainers tests"
 date: 2020-10-09T18:47:53+02:00
-draft: true
+draft: false
 author: Peter
 
 subtitle: "How you can drastically reduce the runtime for your Testcontainers tests"
