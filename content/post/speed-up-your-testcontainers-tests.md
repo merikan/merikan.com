@@ -16,14 +16,14 @@ categories: ["technology"]
 This is the second part of a two part series about [Testcontainers](https://www.testcontainers.org/). In this part I will among other things show you some tricks to get your Testcontainers start much faster.
 
 
-# Intro
+## Intro
 In the previous blog post, [Getting Started with Testcontainers]({{< ref "getting-started-with-testcontainers" >}}), I described what the [Testcontainers](https://www.testcontainers.org/) framework is and how to get started using it in your project. After using Testcontainers for a long time I learned that there are things that need to be adjusted to make it even better and faster. Below I will show some of the things that make a fantastic framework even better.
 
-## Source code
+### Source code
 The full source code for my example project can be found here: [https://github.com/merikan/testcontainers-demo)](https://github.com/merikan/testcontainers-demo) and the folder `faster`.
 
 
-# Use the singleton pattern
+## Use the singleton pattern
 
 I described this in my [previous blog post]({{< ref "getting-started-with-testcontainers" >}}) but it is well worth repeating. There may sometimes be a reason to use the `@Container` annotation to declare Testcontainers in our integration test classes. The disadvantage of this is that our Testcontainers will start and stop between each test class that is run, which can take a very long time. We can instead use the singleton pattern to make our Testcontainers start only once for all our test classes, and then be taken down when they are finished. 
 
@@ -38,10 +38,10 @@ To use the singleton pattern we can create an abstract class that handles the cr
 @Testcontainers
 public abstract class AbstractIntegrationTest {
 
-    static final MariaDBContainer mariadb;
+    private static final MariaDBContainer mariadb;
 
     static {
-        mariadb = (MariaDBContainer) new MariaDBContainer("mariadb:10.5.5")
+        mariadb = (MariaDBContainer) new MariaDBContainer(DockerImageName.parse("mariadb:10.5.5"))
             .withCommand("--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci");
         mariadb.start();
     }
@@ -75,7 +75,7 @@ public class TodoServiceImplIT extends AbstractIntegrationTest {
 If we now run our tests, we will see that our Testcontainer is only started once, which means that we shorten the time to run our test suites significantly.
 
 
-# Speed-up start time with multiple containers
+## Speed-up start time with multiple containers
 
 In my current projects I have multiple containers in my test suites and it will take some time to start, even if it's only done once. But with some small changes we can reduce the startup time.
 
@@ -85,16 +85,16 @@ Let us first create an example where we start several Testcontainers and then ma
 static {
     Instant start = Instant.now();
 
-    mariadb1 = (MariaDBContainer) new MariaDBContainer("mariadb:10.5.5")
+    mariadb1 = (MariaDBContainer) new MariaDBContainer(DockerImageName.parse("mariadb:10.5.5"))
         .withCommand("--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci");
     mariadb1.start();
-    mariadb2 = (MariaDBContainer) new MariaDBContainer("mariadb:10.5.5")
+    mariadb2 = (MariaDBContainer) new MariaDBContainer(DockerImageName.parse("mariadb:10.5.5"))
         .withCommand("--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci");
     mariadb2.start();
-    redis = new GenericContainer("redis:5.0.5")
+    redis = new GenericContainer(DockerImageName.parse("redis:5.0.5"))
         .withExposedPorts(6379);
     redis.start();
-    sftp = new GenericContainer("atmoz/sftp:latest")
+    sftp = new GenericContainer(DockerImageName.parse("atmoz/sftp@sha256:975dc193e066e4226a3c4299536bb6c3d98cec27d06583055c25ccbdc30d0b61"))
         .withCommand(String.format("%s:%s:::upload", "SFTP_USER", "SFTP_PASSWORD"));
     sftp.start();
 
@@ -114,13 +114,13 @@ We can use the Stream class for this and it will look like this.
 static {
     Instant start = Instant.now();
 
-    mariadb1 = (MariaDBContainer) new MariaDBContainer("mariadb:10.5.5")
+    mariadb1 = (MariaDBContainer) new MariaDBContainer(DockerImageName.parse("mariadb:10.5.5"))
         .withCommand("--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci");
-    mariadb2 = (MariaDBContainer) new MariaDBContainer("mariadb:10.5.5")
+    mariadb2 = (MariaDBContainer) new MariaDBContainer(DockerImageName.parse("mariadb:10.5.5"))
         .withCommand("--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci");
-    redis = new GenericContainer("redis:5.0.5")
+    redis = new GenericContainer(DockerImageName.parse("redis:5.0.5"))
         .withExposedPorts(6379);
-    sftp = new GenericContainer("atmoz/sftp:latest")
+    sftp = new GenericContainer(DockerImageName.parse("atmoz/sftp@sha256:975dc193e066e4226a3c4299536bb6c3d98cec27d06583055c25ccbdc30d0b61"))
         .withCommand(String.format("%s:%s:::upload", "SFTP_USER", "SFTP_PASSWORD"));
     Stream.of(mariadb1, mariadb2, redis, sftp).parallel().forEach(GenericContainer::start);
 
@@ -136,7 +136,7 @@ If we now run our test again we can see that that it takes a little over 11 seco
 So we saved 8 seconds in startup time, it wasn't that bad, was it? Is there anything else we can do to make our tests faster? Yes there is, just keep reading and you will see yet another way.
 
 
-# Reuse your Testcontainers
+## Reuse your Testcontainers
 
 One thing that repeatedly slows me down is when I work with one test and want to run it several times. It can take a long time and I want a fast feedback loop. So let's dig deeper and see how we can solve that.
 
@@ -150,16 +150,16 @@ This is how our abstract class will look like when enabling `reuse`:
 static {
     Instant start = Instant.now();
 
-    mariadb1 = (MariaDBContainer) new MariaDBContainer("mariadb:10.5.5")
+    mariadb1 = (MariaDBContainer) new MariaDBContainer(DockerImageName.parse("mariadb:10.5.5"))
         .withCommand("--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci")
     .withReuse(true);
-    mariadb2 = (MariaDBContainer) new MariaDBContainer("mariadb:10.5.5")
+    mariadb2 = (MariaDBContainer) new MariaDBContainer(DockerImageName.parse("mariadb:10.5.5"))
         .withCommand("--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci")
         .withReuse(true);
-    redis = new GenericContainer("redis:5.0.5")
+    redis = new GenericContainer(DockerImageName.parse("redis:5.0.5"))
         .withExposedPorts(6379)
         .withReuse(true);
-    sftp = new GenericContainer("atmoz/sftp:latest")
+    sftp = new GenericContainer(DockerImageName.parse("atmoz/sftp@sha256:975dc193e066e4226a3c4299536bb6c3d98cec27d06583055c25ccbdc30d0b61"))
         .withCommand(String.format("%s:%s:::upload", "SFTP_USER", "SFTP_PASSWORD"))
         .withReuse(true);
     Stream.of(mariadb1, mariadb2, redis, sftp).parallel().forEach(GenericContainer::start);
@@ -182,19 +182,19 @@ This is what it looks like in the abstract class when we activate reuse with a u
 static {
     Instant start = Instant.now();
 
-    mariadb1 = (MariaDBContainer) new MariaDBContainer("mariadb:10.5.5")
+    mariadb1 = (MariaDBContainer) new MariaDBContainer(DockerImageName.parse("mariadb:10.5.5"))
         .withCommand("--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci")
     .withReuse(true)
     .withLabel("reuse.UUID", "e06d7a87-7d7d-472e-a047-e6c81f61d2a4");
-    mariadb2 = (MariaDBContainer) new MariaDBContainer("mariadb:10.5.5")
+    mariadb2 = (MariaDBContainer) new MariaDBContainer(DockerImageName.parse("mariadb:10.5.5"))
         .withCommand("--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci")
         .withReuse(true)
         .withLabel("reuse.UUID", "282b8993-097c-4fd4-98f1-94daf3466dd6");
-    redis = new GenericContainer("redis:5.0.5")
+    redis = new GenericContainer(DockerImageName.parse("redis:5.0.5"))
         .withExposedPorts(6379)
         .withReuse(true)
         .withLabel("reuse.UUID", "0429783b-c855-4b32-8239-258cba232b63");
-    sftp = new GenericContainer("atmoz/sftp:latest")
+    sftp = new GenericContainer(DockerImageName.parse("atmoz/sftp@sha256:975dc193e066e4226a3c4299536bb6c3d98cec27d06583055c25ccbdc30d0b61"))
         .withCommand(String.format("%s:%s:::upload", "SFTP_USER", "SFTP_PASSWORD"))
         .withReuse(true)
         .withLabel("reuse.UUID", "0293a405-e435-4f03-9e4b-b6160d9e60fe");
@@ -232,7 +232,7 @@ f7212d652482
 783987174b84
 ```
 
-# Runing tests in a docker container
+## Runing tests in a docker container
 
 One question that often comes up is this: If my tests now use docker containers, can the tests themselves run in a docker container? Yes they can, it is called [Docker in Docker](https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/) aka. DinD. With docker in docker, there will be new challenges such as privileged mode etc., but that's not something I intend to address here.
 
@@ -246,7 +246,7 @@ faster $  docker run -it --rm -v $PWD:$PWD -w $PWD -v /var/run/docker.sock:/var/
 
 You  can read more about Testcontainers and Docker in Docker [here](https://www.testcontainers.org/supported_docker_environment/continuous_integration/dind_patterns)
 
-# Summary
+## Summary
 In this blog post I have showed you some ways to drastically reduce the time to run your tests using Testcontainers.
 
 And finally;  
@@ -255,7 +255,7 @@ If you like this blog post, please add a comment and feel free to share this blo
 
 Until next time, keep coding and never stop learning new things!
 
-## Resources
+### Resources
 * Testcontainers [home page](https://www.testcontainers.org/)  and source code for the [Java project](https://github.com/testcontainers/testcontainers-java/)    
 * The full source code for my example project can be found here: [https://github.com/merikan/testcontainers-demo)](https://github.com/merikan/testcontainers-demo) and the folder `faster`.
 

@@ -98,11 +98,11 @@ To make sure we have reproducible builds we should never rely on `latest`, inste
 
 ```
 @Container
-public static MariaDBContainer mariaDB = new MariaDBContainer("mariadb:10.3.6");
+private static final MariaDBContainer mariaDB = new MariaDBContainer(DockerImageName.parse("mariadb:10.5.5"));
 
 @Container
-public static GenericContainer redis = new GenericContainer("redis:5.0.5")
-                                        .withExposedPorts(6379);
+private static final GenericContainer redis = new GenericContainer(DockerImageName.parse("redis:5.0.5"))
+                                               .withExposedPorts(6379);
 ```
 This is one way to start Testcontainers but later on I will show you another and, in my opinion, better way to start them.
 
@@ -135,13 +135,13 @@ This is what the abstract class looks like to be used to start Testcontainers:
 @Testcontainers
 public abstract class AbstractIntegrationTest {
 
-    static final MariaDBContainer mariadb;
-    private static GenericContainer redis;
+    private static final MariaDBContainer mariadb;
+    private static final GenericContainer redis;
 
     static {
-        mariadb = new MariaDBContainer("mariadb:10.3.6");
+        mariadb = new MariaDBContainer(DockerImageName.parse("mariadb:10.5.5"));
         mariadb.start();
-        redis = new GenericContainer("redis:5.0.5")
+        redis = new GenericContainer(DockerImageName.parse("redis:5.0.5"))
             .withExposedPorts(6379);
         redis.start();
     }
@@ -201,7 +201,7 @@ Our project uses `MariaDb` so let's add MariaDb as a Testcontainer. Since we are
 ```
 <properties>
   ....
-  <testcontainers.version>1.14.3</testcontainers.version>
+  <testcontainers.version>1.15.0-rc2</testcontainers.version>
 </properties>
 
 <dependencyManagement>
@@ -244,10 +244,10 @@ Next we will create an abstract class to be used by all integration test classes
 @Testcontainers
 public abstract class AbstractIntegrationTest {
 
-    static final MariaDBContainer mariadb;
+    private static final MariaDBContainer mariadb;
 
     static {
-        mariadb = (MariaDBContainer) new MariaDBContainer("mariadb:10.5.5")
+        mariadb = (MariaDBContainer) new MariaDBContainer(DockerImageName.parse("mariadb:10.5.5"))
             .withCommand("--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci");
         mariadb.start();
     }
