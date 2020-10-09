@@ -198,6 +198,8 @@ Remove `h2` as an embedded resource so that Spring Boot does not attempt to star
 and add Testcontainers instead. 
 Our project uses `MariaDb` so let's add MariaDb as a Testcontainer. Since we are using Junit 5 we will also add the `junit-jupiter` module for Testcontainers. First we will import Testcontainers BOM and then add our dependencies.
 
+_Note: We are using version 1.15.0-rc2 of Testcontainers due to issues with Docker for Mac 2.4.0.0 in earlier versions._
+
 ```
 <properties>
   ....
