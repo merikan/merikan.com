@@ -132,7 +132,6 @@ Keep in mind that you have to deal with any side effects caused by multiple test
 This is what the abstract class looks like to be used to start Testcontainers:
 
 ``` java
-@Testcontainers
 public abstract class AbstractIntegrationTest {
 
     private static final MariaDBContainer mariadb;
@@ -243,7 +242,6 @@ Next we will create an abstract class to be used by all integration test classes
 ``` java
 @SpringBootTest(webEnvironment = RANDOM_PORT)
 @ActiveProfiles("integrationtest")
-@Testcontainers
 public abstract class AbstractIntegrationTest {
     private static final DockerImageName MARIADB_IMAGE = DockerImageName.parse("mariadb:10.5.5");
     private static final MariaDBContainer mariadb;

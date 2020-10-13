@@ -35,7 +35,6 @@ To use the singleton pattern we can create an abstract class that handles the cr
 ``` java
 @SpringBootTest(webEnvironment = RANDOM_PORT)
 @ActiveProfiles("integrationtest")
-@Testcontainers
 public abstract class AbstractIntegrationTest {
     private static final DockerImageName MARIADB_IMAGE = DockerImageName.parse("mariadb:10.5.5");
     private static final MariaDBContainer mariadb;
