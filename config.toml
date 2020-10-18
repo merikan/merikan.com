@@ -46,3 +46,8 @@ home = ["HTML", "RSS"]
   github         = "https://github.com/merikan"
   medium         = "https://medium.com/@merikan"
   #pinterest     = "full profile url in pinterest"
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 2

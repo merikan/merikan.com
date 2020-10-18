@@ -7,7 +7,7 @@ author: Peter
 subtitle: "What is Testcontainers and why should I use it?"
 description: ""
 image: "/files/getting-started-with-testcontainers/code-block.png"
-showtoc: false
+showtoc: true
 tags: ["testcontainers", "java","spring-boot"]
 categories: ["technology"]
 

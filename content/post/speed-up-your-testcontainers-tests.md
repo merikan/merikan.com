@@ -7,7 +7,7 @@ author: Peter
 subtitle: "How you can drastically reduce the runtime for your Testcontainers tests"
 description: ""
 image: "/files/speed-up-your-testcontainers-tests/code-block.png"
-showtoc: false
+showtoc: true
 tags: ["testcontainers", "java","spring-boot"]
 categories: ["technology"]
 
