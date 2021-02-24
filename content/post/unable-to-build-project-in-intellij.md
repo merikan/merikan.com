@@ -7,7 +7,7 @@ author: Peter
 #subtitle: ""
 #description: ""
 #image: ""
-tags: ["macos","java', "intellij"]
+tags: ["macos","java", "intellij"]
 categories: ["technology"]
 
 ---
