@@ -1,7 +1,7 @@
 ---
-title: "Unable to build my my project with Intellij"
+title: "Unable to build my project with Intellij"
 date: 2021-02-22T14:08:52+01:00
-draft: true
+draft: false
 author: Peter
 
 #subtitle: ""
