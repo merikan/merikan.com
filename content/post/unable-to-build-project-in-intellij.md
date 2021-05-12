@@ -9,9 +9,11 @@ author: Peter
 #image: ""
 tags: ["macos","java", "intellij"]
 categories: ["technology"]
+lastmod: 2021-05-12T15:26:45+0200
 
 ---
-
+*Update 2021-05-12* -
+Updated Intellij to latest version [2021.1.1](https://blog.jetbrains.com/idea/2021/04/intellij-idea-2021-1-1/) and it looks like this problem is solved. I also had [problems using log in static block](https://youtrack.jetbrains.com/issue/IDEA-265211) and it's also fixed.
 
 Today I had some serious problems with my Intellij installation. It all started after updating to the current latest patch `2020.3.2` and I could no longer build my project inside Intellij. I had no problem building it from the command line with maven but in the ide, it refused to build. 
 My problem was 
@@ -20,7 +22,7 @@ java: JPS incremental annotation processing is disabled. Compilation results on 
 
 java: Compilation failed: internal java compiler error
 ```
-After some research, I found that [Intellij had some problem with Lombok](https://github.com/rzwitserloot/lombok/issues/2592). It also looks like it has the same problem with Mastruct but in this specific project, I don't use Mapstruct. There are two ways to solve this issue, first is to upgrade Lombok to a newer version second is more of a workaround and it is to [add `-Djps.track.ap.dependencies=false` to the build process options](https://github.com/rzwitserloot/lombok/issues/2592#issuecomment-705449860).
+After some research, I found that [Intellij had some problem with Lombok](https://github.com/rzwitserloot/lombok/issues/2592). It also looks like it has the same problem with Mapstruct but in this specific project, I don't use Mapstruct. There are two ways to solve this issue, first is to upgrade Lombok to a newer version second is more of a workaround and it is to [add `-Djps.track.ap.dependencies=false` to the build process options](https://github.com/rzwitserloot/lombok/issues/2592#issuecomment-705449860).
 
 My Lombok version was 1.18.8 so I upgraded to the current latest version 1.18.18 and it solved my problem.    
 
