@@ -9,8 +9,14 @@ description: "How different Java versions behave in a container"
 tags: ["java", "docker", "kubernetes"]
 categories: ["technology"]
 showtoc: true
-lastmod: 2019-05-17T14:14:39+0200
+lastmod: 2022-07-08T07:42:00+0200
 ---
+# **👉 Important Update 2022-07-08**   
+A reader informed me that the reported memory size was incorrect. I know that the numbers were correct when I wrote the blog post so I had to check this out and see why it differs.    
+It turned out that `cgroup v2` was enabled in [Docker engine 20.10](https://docs.docker.com/engine/release-notes/#20106) (also [Docker Desktop for Mac v4.2.0](https://docs.docker.com/desktop/release-notes/#docker-desktop-420)). This means that docker no longer uses `cgroups v1` and has switched to using `cgroups v2`, like all modern Linux distributions.    
+Older Java versions uses `cgroup v1` and `cgroup v2` was inctroduced in [Java 15](https://bugs.openjdk.org/browse/JDK-8230305). I know that there was some disussions about backporting this change but I am no sure if that really happened.   
+If you want to temporarily switch Docker back to use `cgroup v1` you can use the option `"deprecatedCgroupv1": true,`. On Macos, edit the file `~/Library/Group\ Containers/group.com.docker/settings.json` and set `deprecatedCgroupv1` to `true`. When this change is done and Docker is restarted, the examples below with "old" Java versions will show the correct value. Although I recommend you use version 15+ of Java instead of changing Dockers behavior and this option will probably be deprecated and removed in a later Docker version.
+
 
 # tl:dr
 Until Java 8u131 and Java 9 the JVM did not recognize memory or cpu limits set by the container. First implementation was a experimental feature and had its flaws but in Java 10, memory limits are automatically recognized and enforced. This feature was then backported to Java-8u191.   
@@ -149,12 +155,14 @@ VM settings:
 Conclusion is that `MaxRAMFraction` is hard to work with since it’s a fraction so you must choose your value wisely.
 
 # Java 10+
+**👉  see update about `croup v1`**   
 With Java 10 came better support for Container environment. If you run your Java application in a Linux container the JVM will automatically detect the Control Group memory limit with the `UseContainerSupport` option.
 You can then control the memory with the following options, `InitialRAMPercentage`, `MaxRAMPercentage` and `MinRAMPercentage`. As you can see we have percentage instead of fraction, which is nice and much more useful.
 
 Later on you will see that this  behavior was backported to Java 8u191
 
 Let’s look at the default values for the new java version
+**👉  see update about `croup v1`**   
 ```bash
 ➜ docker run -m 1GB openjdk:10 java \
           -XX:+PrintFlagsFinal -version \
@@ -173,6 +181,7 @@ OpenJDK 64-Bit Server VM (build 10.0.2+13-Debian-2, mixed mode)
 We can see that `UseContainerSupport` is activated by default. It looks like `MaxRAMPercentage` is `25%` and `MinRAMPercentage` is `50%`.
 Let’s see what heap size is calculated when we give the container 1GB of memory.
 
+**👉  see update about `croup v1`**   
 ```bash
 ➜ docker run -m 1GB openjdk:10 java \
           -XshowSettings:vm \
@@ -211,7 +220,8 @@ As we said earlier, option `UseContainerSupport` was [backported to Java 8u191](
    double MinRAMPercentage                          = 50.000000                           {product}
      bool UseContainerSupport                       = true                                {product}
 ```
-Let’s use those options as we did with Java 10
+Let’s use those options as we did with Java 10   
+**👉  see update about `croup v1`**   
 ```bash
 ➜ docker run -m 1GB openjdk:8u191-alpine java \
           -XX:MinRAMPercentage=50 \
@@ -224,8 +234,8 @@ Error: Could not create the Java Virtual Machine.
 Error: A fatal exception has occurred. Program will exit.
 ```
 What?!  What is this? `Improperly specified VM option 'MinRAMPercentage=50’`?
-We know that RAMPercentage is a double so let’s add the decimal value.
-
+We know that RAMPercentage is a double so let’s add the decimal value.   
+**👉  see update about `croup v1`**   
 ```bash
 ➜ docker run -m 1GB openjdk:8u191-alpine java \
           -XX:MinRAMPercentage=50.0 \
