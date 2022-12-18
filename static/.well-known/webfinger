@@ -1,0 +1,24 @@
+
+{
+    "aliases": [
+        "https://mastodon.social/@merikan",
+        "https://mastodon.social/users/merikan"
+    ],
+    "links": [
+        {
+            "href": "https://mastodon.social/@merikan",
+            "rel": "http://webfinger.net/rel/profile-page",
+            "type": "text/html"
+        },
+        {
+            "href": "https://mastodon.social/users/merikan",
+            "rel": "self",
+            "type": "application/activity+json"
+        },
+        {
+            "rel": "http://ostatus.org/schema/1.0/subscribe",
+            "template": "https://mastodon.social/authorize_interaction?uri={uri}"
+        }
+    ],
+    "subject": "acct:merikan@mastodon.social"
+}
