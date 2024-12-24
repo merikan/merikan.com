@@ -15,3 +15,9 @@ $ hugo server -D
 ```
 $ hugo new post/{blog-post-name}.md
 ```
+
+## Theme
+
+I am using the [Cleanwhite Theme: A clean, elegant blog theme for hugo](https://github.com/zhaohuabing/hugo-theme-cleanwhite).
+
+
